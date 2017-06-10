@@ -290,7 +290,6 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "latitude": 26.7645498,
       "longitude": 26.3034919,
       "myUrl": "http://awoisoak.com/gallery/egypt/",
-      "description": "<img src='http://upload.wikimedia.org/wikipedia/commons/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg' /><p>London is the capital and most populous city of England and the United Kingdom. Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium. London's ancient core, the City of London, largely retains its 1.12-square-mile (2.9 km2) medieval boundaries and in 2011 had a resident population of 7,375, making it the smallest city in England. Since at least the 19th century, the term London has also referred to the metropolis developed around this core The bulk of this conurbation forms the Greater London administrative area (coterminous with the London region), governed by the Mayor of London and the London Assembly.</p>"
     },
 
 	{
