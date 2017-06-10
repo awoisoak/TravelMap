@@ -1,6 +1,8 @@
 // svg path for target icon
 var dartboardSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
-var targetSVG = "M17.592,8.936l-6.531-6.534c-0.593-0.631-0.751-0.245-0.751,0.056l0.002,2.999L5.427,9.075H2.491c-0.839,0-0.162,0.901-0.311,0.752l3.683,3.678l-3.081,3.108c-0.17,0.171-0.17,0.449,0,0.62c0.169,0.17,0.448,0.17,0.618,0l3.098-3.093l3.675,3.685c-0.099-0.099,0.773,0.474,0.773-0.296v-2.965l3.601-4.872l2.734-0.005C17.73,9.688,18.326,9.669,17.592,8.936 M3.534,9.904h1.906l4.659,4.66v1.906L3.534,9.904z M10.522,13.717L6.287,9.48l4.325-3.124l3.088,3.124L10.522,13.717z M14.335,8.845l-3.177-3.177V3.762l5.083,5.083H14.335z"
+// var markerSVG = "M17.592,8.936l-6.531-6.534c-0.593-0.631-0.751-0.245-0.751,0.056l0.002,2.999L5.427,9.075H2.491c-0.839,0-0.162,0.901-0.311,0.752l3.683,3.678l-3.081,3.108c-0.17,0.171-0.17,0.449,0,0.62c0.169,0.17,0.448,0.17,0.618,0l3.098-3.093l3.675,3.685c-0.099-0.099,0.773,0.474,0.773-0.296v-2.965l3.601-4.872l2.734-0.005C17.73,9.688,18.326,9.669,17.592,8.936 M3.534,9.904h1.906l4.659,4.66v1.906L3.534,9.904z M10.522,13.717L6.287,9.48l4.325-3.124l3.088,3.124L10.522,13.717z M14.335,8.845l-3.177-3.177V3.762l5.083,5.083H14.335z"
+var targetSVG = "M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z"
+
 
 var currentObject;
 
@@ -11,10 +13,10 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     "map": "worldLow",
     "getAreasFromMap": true
   },
-  "areasSettings": {
-    "autoZoom": true,
-    "selectedColor": "#CC0000"
-  },
+  // "areasSettings": {
+  //   "autoZoom": true,
+  //   "selectedColor": "#CC0000"
+  // },
   "mouseWheelZoomEnabled": true,
 
 
@@ -27,13 +29,32 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     "map": "worldLow",
 
     //AREAS
-    // "areas": [{
-    //   "id": "JP",
-    //   "description": "Japan"
-    // }, {
-    //   "id": "TW",
-    //   "info": "Taiwan blabladsadasdasdasd"
-    // }],
+    "areas": [{
+      "id": "JP",
+      // "modalUrl": "http://awoisoak.com/gallery/qibao-zhujiajiao/",
+      // "selectable": true
+      // "description": "Japan"
+    }, {
+      "id": "TW",
+      // "modalUrl": "https://en.wikipedia.org/wiki/Taiwan",
+      // "selectable": true
+      // "info": "Taiwan blabladsadasdasdasd"
+    },{
+      "id": "RU",
+    },
+ 	{
+      "id": "BG",
+    },
+    {
+      "id": "GB",
+    },
+    {
+      "id": "AU",
+    },
+    {
+      "id": "CA",
+    },
+    ],
 
 
 
@@ -41,7 +62,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 
     {
       "id": "Egypt",
-      "svgPath": targetSVG,
+      "svgPath": dartboardSVG,
       "zoomLevel": 5,
       "scale": 1,
       "title": "Egypt",
@@ -51,51 +72,41 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "description": "<img src='http://upload.wikimedia.org/wikipedia/commons/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg' /><p>London is the capital and most populous city of England and the United Kingdom. Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium. London's ancient core, the City of London, largely retains its 1.12-square-mile (2.9 km2) medieval boundaries and in 2011 had a resident population of 7,375, making it the smallest city in England. Since at least the 19th century, the term London has also referred to the metropolis developed around this core The bulk of this conurbation forms the Greater London administrative area (coterminous with the London region), governed by the Mayor of London and the London Assembly.</p>"
     },
 
-    {
-      "id": "China",
-      "svgPath": targetSVG,
-      "zoomLevel": 10,
-      "scale": 2,
-      "title": "China",
-      "latitude": 35.8617,
-      "longitude": 104.1954,
-      "images": 
-      	[ 	{
-			  "id": "Guangzhou",
-			  "svgPath": targetSVG,
-		      "zoomLevel": 20,
-		      "scale": 1,
-		      "title": "Guangzhou",
-		      "latitude": 23.1253491,
-		      "longitude": 112.9469735,
-		      "myUrl": "http://awoisoak.com/gallery/guangzhou/"
-			},
-			{
-		      "id": "Qibao & Zhujiajiao",
-		      "svgPath": targetSVG,
-		      "zoomLevel": 20,
-		      "scale": 1,
-		      "title": "Qibao & Zhujiajiao",
-		      "latitude": 31.157657,
-		      "longitude": 121.349174,
-		      "myUrl": "http://awoisoak.com/gallery/qibao-zhujiajiao/"
-		    },
-		    {
-		      "id": "Shanghai",
-		      "svgPath": targetSVG,
-		      "zoomLevel": 20,
-		      "scale": 1,
-		      "title": "Shanghai",
-		      "latitude": 31.2240438,
-		      "longitude": 121.1958847,
-		      "myUrl": "http://awoisoak.com/gallery/shanghai/"
-		    },
-      	]
+	{
+	  "id": "Guangzhou",
+	  "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Guangzhou",
+      "latitude": 23.1253491,
+      "longitude": 112.9469735,
+      "myUrl": "http://awoisoak.com/gallery/guangzhou/"
+	},
+	{
+      "id": "Qibao & Zhujiajiao",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Qibao & Zhujiajiao",
+      "latitude": 31.157657,
+      "longitude": 121.349174,
+      "myUrl": "http://awoisoak.com/gallery/qibao-zhujiajiao/"
     },
+    {
+      "id": "Shanghai",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Shanghai",
+      "latitude": 31.2240438,
+      "longitude": 121.1958847,
+      "myUrl": "http://awoisoak.com/gallery/shanghai/"
+    },
+
 
     {
       "id": "Hong Kong",
-      "svgPath": targetSVG,
+      "svgPath": dartboardSVG,
       "zoomLevel": 20,
       "scale": 1,
       "title": "Hong Kong",
@@ -115,7 +126,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "images": 
       	[ 	{
       		  "id": "Fujikawaguchiko",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Fujikawaguchiko",
@@ -125,7 +136,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       		},
       		{
 		      "id": "Himeji",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Himeji",
@@ -135,7 +146,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     		},
     		{
 		      "id": "Kamakura & Enoshima",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Kamakura & Enoshima",
@@ -145,7 +156,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
   		    },
 		    {
 		      "id": "Kobe",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Kobe",
@@ -155,7 +166,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Kyoto",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Kyoto",
@@ -165,7 +176,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Mt. Fuji",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Mt. Fuji",
@@ -175,7 +186,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Nara",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Nara",
@@ -185,7 +196,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Nikko",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Nikko",
@@ -195,7 +206,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Nokogiriyama",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Nokogiriyama",
@@ -205,7 +216,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Osaka",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Osaka",
@@ -215,8 +226,8 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Tateyama Kurobe Alpine Route",
-		      "svgPath": targetSVG,
-		      "zoomLevel": 20,
+		      "svgPath": dartboardSVG,
+		      "zoomLevel": 10,
 		      "scale": 1,
 		      "title": "Tateyama Kurobe Alpine Route",
 		      "latitude": 36.5704851,
@@ -225,7 +236,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Shirakawa-go, Matsumoto & Hakone",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Shirakawa-go, Matsumoto & Hakone",
@@ -235,7 +246,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Tokyo",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Tokyo",
@@ -245,7 +256,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Yokohama",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Yokohama",
@@ -257,7 +268,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
    },
     {
       "id": "Macau",
-      "svgPath": targetSVG,
+      "svgPath": dartboardSVG,
       "zoomLevel": 20,
       "scale": 1,
       "title": "Macau",
@@ -267,7 +278,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     },
     {
       "id": "Mongolia",
-      "svgPath": targetSVG,
+      "svgPath": dartboardSVG,
       "zoomLevel": 5,
       "scale": 1,
       "title": "Mongolia",
@@ -277,7 +288,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     },
     {
       "id": "Busan",
-      "svgPath": targetSVG,
+      "svgPath": dartboardSVG,
       "zoomLevel": 20,
       "scale": 1,
       "title": "Busan",
@@ -287,7 +298,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     },
     {
       "id": "Seoul",
-      "svgPath": targetSVG,
+      "svgPath": dartboardSVG,
       "zoomLevel": 20,
       "scale": 1,
       "title": "Seoul",
@@ -299,7 +310,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Taiwan",
       "svgPath": targetSVG,
-      "zoomLevel": 10,
+      "zoomLevel": 25,
       "scale": 2,
       "title": "Taiwan",
       "latitude": 23.6978,
@@ -308,7 +319,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       	[ 	
 		    {
 		      "id": "Caoling & Taoyuan",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Caoling & Taoyuan",
@@ -318,7 +329,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Jiufen",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Jiufen",
@@ -328,7 +339,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Keelung",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Keelung",
@@ -338,7 +349,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Matsu",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Matsu",
@@ -348,7 +359,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Pingxi & Shifen",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Pingxi & Shifen",
@@ -358,7 +369,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Taipei & Surrounds",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Taipei & Surrounds",
@@ -368,7 +379,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Teapot Mountain",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Teapot Mountain",
@@ -378,7 +389,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Yilan",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Yilan",
@@ -388,7 +399,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Alishan",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Alishan",
@@ -398,7 +409,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Taroko National Park & Sixty Rock Mountains",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Taroko National Park & Sixty Rock Mountains",
@@ -408,7 +419,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Nantou",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Nantou",
@@ -418,7 +429,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Sun Moon Lake",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Sun Moon Lake",
@@ -428,7 +439,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Wuling",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Wuling",
@@ -438,7 +449,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Yuanzi",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Yuanzi",
@@ -448,7 +459,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Dulan & Chisang",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Dulan & Chisang",
@@ -458,7 +469,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Green Island",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Green Island",
@@ -468,7 +479,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Kaohsiung",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Kaohsiung",
@@ -478,17 +489,17 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Kenting",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Kenting",
-		      "latitude": 21.9483,
-		      "longitude": 120.7798,
+		      "latitude": 21.9483307,
+		      "longitude": 120.7775576,
 		      "myUrl": "http://awoisoak.com/gallery/kenting/"
 		    },
 		    {
 		      "id": "Lanyu",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Lanyu",
@@ -498,7 +509,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Maolin",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Maolin",
@@ -508,7 +519,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Tainan",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Tainan",
@@ -518,7 +529,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    },
 		    {
 		      "id": "Xiaoliuqiu",
-		      "svgPath": targetSVG,
+		      "svgPath": dartboardSVG,
 		      "zoomLevel": 20,
 		      "scale": 1,
 		      "title": "Xiaoliuqiu",
@@ -527,26 +538,255 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "myUrl": "http://awoisoak.com/gallery/xiaoliuqiu/"
 		    }
       	]
+    },
+    {
+      "id": "Siberia",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Siberia",
+      "latitude": 52.2870,
+      "longitude": 104.3050,
+      "myUrl": "http://awoisoak.com/gallery/siberia/"
     },	
+    {
+      "id": "Istanbul",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Istanbul",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "myUrl": "http://awoisoak.com/gallery/turkey/"
+    },
+    {
+      "id": "Abu Dhabi",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Abu Dhabi",
+      "latitude": 24.4539,
+      "longitude": 54.3773,
+      "myUrl": "http://awoisoak.com/gallery/abu-dhabi/"
+    },
+    {
+      "id": "Dubai",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Dubai",
+      "latitude": 25.2048,
+      "longitude": 55.2708,
+      "myUrl": "http://awoisoak.com/gallery/dubai/"
+    },
+    {
+      "id": "Cambodia",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Cambodia",
+      "latitude": 12.5657,
+      "longitude": 104.9910,
+      "myUrl": "http://awoisoak.com/gallery/cambodia/"
+    },
+    {
+      "id": "Bali",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Bali",
+      "latitude": 8.3405,
+      "longitude":115.0920 ,
+      "myUrl": "http://awoisoak.com/gallery/bali/"
+    },
+    {
+      "id": "Komodo",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Komodo",
+      "latitude": 8.5850,
+      "longitude": 119.4411,
+      "myUrl": "http://awoisoak.com/gallery/komodo/"
+    },
+    {
+      "id": "Bohol",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Bohol",
+      "latitude": 9.8500,
+      "longitude": 124.1435,
+      "myUrl": "http://awoisoak.com/gallery/bohol/"
+    },
+    {
+      "id": "Donsol",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "",
+      "latitude": 12.9943,
+      "longitude": 123.5504,
+      "myUrl": "http://awoisoak.com/gallery/donsol/"
+    },
+    {
+      "id": "El Nido",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "El Nido",
+      "latitude": 11.2097,
+      "longitude": 119.4623,
+      "myUrl": "http://awoisoak.com/gallery/el-nido/"
+    },
+    {
+      "id": "Legazpi",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Legazpi",
+      "latitude": 13.1391,
+      "longitude": 123.7438,
+      "myUrl": "http://awoisoak.com/gallery/legazpi/"
+    },
+    {
+      "id": "Manila",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Manila",
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "myUrl": "http://awoisoak.com/gallery/manila/"
+    },
+    {
+      "id": "Siargao",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Siargao",
+      "latitude":9.8482 ,
+      "longitude":126.0458 ,
+      "myUrl": "http://awoisoak.com/gallery/siargao/"
+    },
+    {
+      "id": "Laos",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Laos",
+      "latitude": 19.8563,
+      "longitude": 102.4955,
+      "myUrl": "http://awoisoak.com/gallery/laos/"
+    },
+    {
+      "id": "Kuala Lumpur",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Kuala Lumpur",
+      "latitude": 3.1390,
+      "longitude": 101.6869,
+      "myUrl": "http://awoisoak.com/gallery/101283/"
+    },
+    {
+      "id": "Singapore",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "myUrl": "http://awoisoak.com/gallery/singapore/"
+    },
+    {
+      "id": "Thailand",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Thailand",
+      "latitude": 15.8700,
+      "longitude": 100.9925,
+      "myUrl": "http://awoisoak.com/gallery/thailand/"
+    },
+    {
+      "id": "Ho Chi Minh",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Ho Chi Minh",
+      "latitude": 10.8231,
+      "longitude": 106.6297,
+      "myUrl": "http://awoisoak.com/?border_gallery=ho-chi-minh"
+    },
+    {
+      "id": "North Vietnam",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "North Vietnam",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "myUrl": "http://awoisoak.com/gallery/vietnam/"
+    },
+    {
+      "id": "Ghorepani Poon Hill Trek",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Ghorepani Poon Hill Trek",
+      "latitude": 28.4008,
+      "longitude": 83.7000,
+      "myUrl": "http://awoisoak.com/?border_gallery=ghorepani-pool-hill-trek"
+    },
+    {
+      "id": "Kathmandu",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Kathmandu",
+      "latitude": 27.7172,
+      "longitude":85.3240 ,
+      "myUrl": "http://awoisoak.com/gallery/kathmandu/"
+    },
 
-    ]
+    {
+      "id": "Pokhara",
+      "svgPath": dartboardSVG,
+      "zoomLevel": 20,
+      "scale": 1,
+      "title": "Pokhara",
+      "latitude": 28.2380,
+      "longitude": 83.9956,
+      "myUrl": "http://awoisoak.com/gallery/pokhara/"
+    },
+
+
+
+        ]
   },
 
   "listeners": [ {
     "event": "clickMapObject",
     "method": function( event ) {
       // check if the map is already at traget zoomLevel and go to url if it is
-      if ( currentObject && event.mapObject.id == currentObject.id ) {
-       
-       //To change the icon selected
-       event.mapObject.svgPath = dartboardSVG;
-       event.mapObject.validate();
+      // if ( currentObject && event.mapObject.id == currentObject.id ) {
+	       //To change the icon selected
+	       // event.mapObject.svgPath = dartboardSVG;
+	       // event.mapObject.validate();
 
-       //Open URL in other tab/window
-       window.open(event.mapObject.myUrl);
-      }
-
-      currentObject = event.mapObject;
+	       //Open URL in other tab/window
+	       // window.open(event.mapObject.myUrl);
+	    if (event.mapObject.myUrl != undefined){
+	       $.fancybox({
+    		width: 1500,
+    		href: event.mapObject.myUrl,
+    		title: event.mapObject.title,
+    		type: "iframe"
+  			});
+	   }
+      // }
+      // currentObject = event.mapObject;
     }
   }]
   
@@ -559,15 +799,11 @@ function clickObject( id ) {
 }
 
 
-// //borrar???
-// function getBounds() {
-//   var bounds = {
-//     swLongitude: map.stageXToLongitude(0),
-//     swLatitude: map.stageYToLatitude(map.divRealHeight),
-//     neLongitude: map.stageXToLongitude(map.divRealWidth),
-//     neLatitude: map.stageYToLatitude(0)
-//   }
-//   console.log(bounds);
-// }
-
+// map.addListener("clickMapObject", function(event) {
+//   $.fancybox({
+//     href: event.mapObject.modalUrl,
+//     title: event.mapObject.title,
+//     type: "iframe"
+//   });
+// });
 
