@@ -17,13 +17,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
   //   "autoZoom": true,
   //   "selectedColor": "#CC0000"
   // },
-  "mouseWheelZoomEnabled": true,
-
-
-
-
-  // "smallMap": {},
-  
+  "mouseWheelZoomEnabled": true,  
   
     "dataProvider": {
     "map": "worldLow",
@@ -54,6 +48,9 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "CA",
     },
+    {
+      "id": "ES",
+    },
     ],
 
 
@@ -63,7 +60,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Egypt",
       "svgPath": dartboardSVG,
-      "zoomLevel": 5,
+      "selectable": true,
       "scale": 1,
       "title": "Egypt",
       "latitude": 26.7645498,
@@ -75,7 +72,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 	{
 	  "id": "Guangzhou",
 	  "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Guangzhou",
       "latitude": 23.1253491,
@@ -85,7 +82,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 	{
       "id": "Qibao & Zhujiajiao",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Qibao & Zhujiajiao",
       "latitude": 31.157657,
@@ -95,7 +92,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Shanghai",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Shanghai",
       "latitude": 31.2240438,
@@ -107,7 +104,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Hong Kong",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Hong Kong",
       "latitude": 22.3576177,
@@ -118,16 +115,16 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Japan",
       "svgPath": targetSVG,
-      "zoomLevel": 10,
+      "zoomLevel": 19,
       "scale": 2,
       "title": "Japan",
-      "latitude": 36.2048,
-      "longitude": 138.2529,
+      "latitude": 35.6732615,
+      "longitude": 139.5699619,
       "images": 
       	[ 	{
       		  "id": "Fujikawaguchiko",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Fujikawaguchiko",
 		      "latitude": 35.482548,
@@ -137,7 +134,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       		{
 		      "id": "Himeji",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Himeji",
 		      "latitude": 34.9259075,
@@ -147,7 +144,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     		{
 		      "id": "Kamakura & Enoshima",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Kamakura & Enoshima",
 		      "latitude": 35.333922,
@@ -157,7 +154,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Kobe",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Kobe",
 		      "latitude": 34.694295,
@@ -167,7 +164,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Kyoto",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Kyoto",
 		      "latitude": 35.0060949,
@@ -177,7 +174,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Mt. Fuji",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Mt. Fuji",
 		      "latitude": 35.3605555,
@@ -187,7 +184,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Nara",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Nara",
 		      "latitude": 34.6868987,
@@ -197,7 +194,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Nikko",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Nikko",
 		      "latitude": 36.8463038,
@@ -207,7 +204,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Nokogiriyama",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Nokogiriyama",
 		      "latitude": 35.160391,
@@ -217,17 +214,17 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Osaka",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Osaka",
-		      "latitude": 34.6937,
-		      "longitude": 135.5022,
+		      "latitude": 34.6783987,
+		      "longitude": 135.4775975,
 		      "myUrl": "http://awoisoak.com/gallery/osaka/"
 		    },
 		    {
 		      "id": "Tateyama Kurobe Alpine Route",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 10,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Tateyama Kurobe Alpine Route",
 		      "latitude": 36.5704851,
@@ -237,31 +234,31 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Shirakawa-go, Matsumoto & Hakone",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Shirakawa-go, Matsumoto & Hakone",
-		      "latitude": 36.2561,
-		      "longitude": 136.9062,
+		      "latitude": 36.2560756,
+		      "longitude": 136.9039856,
 		      "myUrl": "http://awoisoak.com/gallery/shirakawa-go_matsumoto_hakone/"
 		    },
 		    {
 		      "id": "Tokyo",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Tokyo",
-		      "latitude": 35.6895,
-		      "longitude": 139.6917,
+		      "latitude": 35.6732615,
+		      "longitude": 139.5699619,
 		      "myUrl": "http://awoisoak.com/gallery/tokyo/"
 		    },
 		    {
 		      "id": "Yokohama",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Yokohama",
-		      "latitude": 35.4437,
-		      "longitude": 139.6380,
+		      "latitude": 35.4619449,
+		      "longitude": 139.5841448,
 		      "myUrl": "http://awoisoak.com/gallery/yokohama/"
 		    }
        ]
@@ -269,41 +266,41 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Macau",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Macau",
-      "latitude": 22.1987,
-      "longitude": 113.5439,
+      "latitude": 22.1634129,
+      "longitude": 113.5283596,
       "myUrl": "http://awoisoak.com/gallery/macau/"
     },
     {
       "id": "Mongolia",
       "svgPath": dartboardSVG,
-      "zoomLevel": 5,
+      "selectable": true,
       "scale": 1,
       "title": "Mongolia",
-      "latitude": 46.8625,
-      "longitude": 103.8467,
+      "latitude": 46.5116623,
+      "longitude": 94.8452623,
       "myUrl": "http://awoisoak.com/gallery/mongolia/"
     },
     {
       "id": "Busan",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Busan",
-      "latitude": 35.1796,
-      "longitude": 129.0756,
+      "latitude": 35.1644297,
+      "longitude": 129.0015887,
       "myUrl": "http://awoisoak.com/gallery/busan/"
     },
     {
       "id": "Seoul",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Seoul",
-      "latitude": 37.5665,
-      "longitude": 126.9780,
+      "latitude": 37.5650168,
+      "longitude": 126.8491241,
       "myUrl": "http://awoisoak.com/gallery/seoul/"
     },
 
@@ -313,14 +310,14 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "zoomLevel": 25,
       "scale": 2,
       "title": "Taiwan",
-      "latitude": 23.6978,
-      "longitude": 120.9605,
+      "latitude": 25.0171605,
+      "longitude": 121.365951,
       "images": 
       	[ 	
 		    {
 		      "id": "Caoling & Taoyuan",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Caoling & Taoyuan",
 		      "latitude": 24.9715161,
@@ -330,47 +327,47 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Jiufen",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Jiufen",
-		      "latitude": 25.1092,
-		      "longitude": 121.8463,
+		      "latitude": 25.1086957,
+		      "longitude": 121.8411754,
 		      "myUrl": "http://awoisoak.com/gallery/jiufen/"
 		    },
 		    {
 		      "id": "Keelung",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Keelung",
-		      "latitude": 25.1276,
-		      "longitude": 121.7392,
+		      "latitude": 25.1240385,
+		      "longitude": 121.6819498,
 		      "myUrl": "http://awoisoak.com/gallery/keelung/"
 		    },
 		    {
 		      "id": "Matsu",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Matsu",
-		      "latitude": 26.1499,
-		      "longitude": 119.9310,
+		      "latitude": 26.1592465,
+		      "longitude": 120.0758576,
 		      "myUrl": "http://awoisoak.com/gallery/matsu/"
 		    },
 		    {
 		      "id": "Pingxi & Shifen",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Pingxi & Shifen",
-		      "latitude": 25.0248,
-		      "longitude": 121.7409,
+		      "latitude": 25.0256853,
+		      "longitude": 121.6788977,
 		      "myUrl": "http://awoisoak.com/gallery/pingxi-shifen/"
 		    },
 		    {
 		      "id": "Taipei & Surrounds",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Taipei & Surrounds",
 		      "latitude": 25.0330,
@@ -380,7 +377,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Teapot Mountain",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Teapot Mountain",
 		      "latitude": 25.1095149,
@@ -390,67 +387,67 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Yilan",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Yilan",
-		      "latitude": 24.7021,
-		      "longitude": 121.7378,
+		      "latitude": 24.7502185,
+		      "longitude": 121.7410691,
 		      "myUrl": "http://awoisoak.com/gallery/yilan/"
 		    },
 		    {
 		      "id": "Alishan",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Alishan",
-		      "latitude": 23.4355,
-		      "longitude": 120.7810,
+		      "latitude": 23.4495571,
+		      "longitude": 120.6593613,
 		      "myUrl": "http://awoisoak.com/gallery/alishan/"
 		    },
 		    {
 		      "id": "Taroko National Park & Sixty Rock Mountains",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Taroko National Park & Sixty Rock Mountains",
-		      "latitude": 24.1587,
-		      "longitude": 121.6216,
+		      "latitude": 24.1587068,
+		      "longitude": 121.6194357,
 		      "myUrl": "http://awoisoak.com/gallery/hualien-taroko/"
 		    },
 		    {
 		      "id": "Nantou",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Nantou",
-		      "latitude": 23.9610,
-		      "longitude": 120.9719,
+		      "latitude": 23.8405924,
+		      "longitude": 120.7016478,
 		      "myUrl": "http://awoisoak.com/gallery/nantou/"
 		    },
 		    {
 		      "id": "Sun Moon Lake",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Sun Moon Lake",
-		      "latitude": 23.8573,
-		      "longitude":120.9159 ,
+		      "latitude": 23.8523012,
+		      "longitude":120.9008998 ,
 		      "myUrl": "http://awoisoak.com/gallery/sun-moon-lake/"
 		    },
 		    {
 		      "id": "Wuling",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Wuling",
-		      "latitude": 24.3930,
-		      "longitude": 121.3067,
+		      "latitude": 24.1980065,
+		      "longitude": 121.0893024,
 		      "myUrl": "http://awoisoak.com/gallery/wuling/"
 		    },
 		    {
 		      "id": "Yuanzi",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Yuanzi",
 		      "latitude": 24.2368984,
@@ -460,7 +457,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Dulan & Chisang",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Dulan & Chisang",
 		      "latitude": 22.8830209,
@@ -470,27 +467,27 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Green Island",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Green Island",
-		      "latitude": 22.6621,
-		      "longitude": 121.4901,
+		      "latitude": 22.6563162,
+		      "longitude": 121.4711125,
 		      "myUrl": "http://awoisoak.com/gallery/green-island/"
 		    },
 		    {
 		      "id": "Kaohsiung",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Kaohsiung",
-		      "latitude": 22.6273,
-		      "longitude": 120.3014,
+		      "latitude": 22.6995934,
+		      "longitude": 120.1906609,
 		      "myUrl": "http://awoisoak.com/gallery/kaohsiung/"
 		    },
 		    {
 		      "id": "Kenting",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Kenting",
 		      "latitude": 21.9483307,
@@ -500,41 +497,41 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		    {
 		      "id": "Lanyu",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Lanyu",
-		      "latitude": 22.0436,
-		      "longitude": 121.5484,
+		      "latitude": 22.0268319,
+		      "longitude": 121.5405837,
 		      "myUrl": "http://awoisoak.com/gallery/lanyu/"
 		    },
 		    {
 		      "id": "Maolin",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Maolin",
-		      "latitude": 22.9319,
-		      "longitude": 120.7350,
+		      "latitude": 22.9187384,
+		      "longitude": 120.6887898,
 		      "myUrl": "http://awoisoak.com/gallery/maolin/"
 		    },
 		    {
 		      "id": "Tainan",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Tainan",
-		      "latitude": 22.9997,
-		      "longitude":120.2270 ,
+		      "latitude": 23.1226787,
+		      "longitude": 120.1058917,
 		      "myUrl": "http://awoisoak.com/gallery/tainan/"
 		    },
 		    {
 		      "id": "Xiaoliuqiu",
 		      "svgPath": dartboardSVG,
-		      "zoomLevel": 20,
+		      "selectable": true,
 		      "scale": 1,
 		      "title": "Xiaoliuqiu",
-		      "latitude": 22.3404,
-		      "longitude":120.3715 ,
+		      "latitude": 22.3388461,
+		      "longitude": 120.3624885,
 		      "myUrl": "http://awoisoak.com/gallery/xiaoliuqiu/"
 		    }
       	]
@@ -542,228 +539,1028 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     {
       "id": "Siberia",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Siberia",
-      "latitude": 52.2870,
-      "longitude": 104.3050,
+      "latitude": 52.2983665,
+      "longitude": 104.1969472,
       "myUrl": "http://awoisoak.com/gallery/siberia/"
     },	
     {
       "id": "Istanbul",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Istanbul",
-      "latitude": 41.0082,
-      "longitude": 28.9784,
+      "latitude": 41.0052363,
+      "longitude": 28.8717539,
       "myUrl": "http://awoisoak.com/gallery/turkey/"
     },
     {
       "id": "Abu Dhabi",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Abu Dhabi",
-      "latitude": 24.4539,
-      "longitude": 54.3773,
+      "latitude": 24.3864834,
+      "longitude": 54.4194809,
       "myUrl": "http://awoisoak.com/gallery/abu-dhabi/"
     },
     {
       "id": "Dubai",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Dubai",
-      "latitude": 25.2048,
-      "longitude": 55.2708,
+      "latitude": 25.0742929,
+      "longitude": 55.0876784,
       "myUrl": "http://awoisoak.com/gallery/dubai/"
     },
     {
       "id": "Cambodia",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Cambodia",
-      "latitude": 12.5657,
-      "longitude": 104.9910,
+      "latitude": 12.2996169,
+      "longitude": 103.8566539,
       "myUrl": "http://awoisoak.com/gallery/cambodia/"
     },
     {
       "id": "Bali",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Bali",
-      "latitude": 8.3405,
-      "longitude":115.0920 ,
+      "latitude": -8.455996,
+      "longitude": 114.7906702,
       "myUrl": "http://awoisoak.com/gallery/bali/"
     },
     {
       "id": "Komodo",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Komodo",
-      "latitude": 8.5850,
-      "longitude": 119.4411,
+      "latitude": -8.6000756,
+      "longitude": 119.5104427,
       "myUrl": "http://awoisoak.com/gallery/komodo/"
     },
     {
       "id": "Bohol",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Bohol",
-      "latitude": 9.8500,
-      "longitude": 124.1435,
+      "latitude": 9.8677399,
+      "longitude": 123.888226,
       "myUrl": "http://awoisoak.com/gallery/bohol/"
     },
     {
       "id": "Donsol",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "",
-      "latitude": 12.9943,
-      "longitude": 123.5504,
+      "latitude": 12.9644514,
+      "longitude": 123.5187043,
       "myUrl": "http://awoisoak.com/gallery/donsol/"
     },
     {
       "id": "El Nido",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "El Nido",
-      "latitude": 11.2097,
-      "longitude": 119.4623,
+      "latitude": 11.2050867,
+      "longitude": 119.2656554,
       "myUrl": "http://awoisoak.com/gallery/el-nido/"
     },
     {
       "id": "Legazpi",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Legazpi",
-      "latitude": 13.1391,
-      "longitude": 123.7438,
+      "latitude": 13.1209017,
+      "longitude": 123.7029626,
       "myUrl": "http://awoisoak.com/gallery/legazpi/"
     },
     {
       "id": "Manila",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Manila",
-      "latitude": 14.5995,
-      "longitude": 120.9842,
+      "latitude": 14.5964957,
+      "longitude": 120.9443574,
       "myUrl": "http://awoisoak.com/gallery/manila/"
     },
     {
       "id": "Siargao",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Siargao",
-      "latitude":9.8482 ,
-      "longitude":126.0458 ,
+      "latitude":9.9040649,
+      "longitude":125.9189328,
       "myUrl": "http://awoisoak.com/gallery/siargao/"
     },
     {
       "id": "Laos",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Laos",
-      "latitude": 19.8563,
-      "longitude": 102.4955,
+      "latitude": 18.1931934,
+      "longitude": 101.6397824,
       "myUrl": "http://awoisoak.com/gallery/laos/"
     },
     {
       "id": "Kuala Lumpur",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Kuala Lumpur",
-      "latitude": 3.1390,
-      "longitude": 101.6869,
+      "latitude": 3.1385035,
+      "longitude": 101.6167778,
       "myUrl": "http://awoisoak.com/gallery/101283/"
     },
     {
       "id": "Singapore",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Singapore",
-      "latitude": 1.3521,
-      "longitude": 103.8198,
+      "latitude": 1.3147268,
+      "longitude": 103.7065913,
       "myUrl": "http://awoisoak.com/gallery/singapore/"
     },
     {
       "id": "Thailand",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Thailand",
-      "latitude": 15.8700,
-      "longitude": 100.9925,
+      "latitude": 13.000022,
+      "longitude": 96.9840398,
       "myUrl": "http://awoisoak.com/gallery/thailand/"
     },
     {
       "id": "Ho Chi Minh",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Ho Chi Minh",
-      "latitude": 10.8231,
-      "longitude": 106.6297,
+      "latitude": 10.7680332,
+      "longitude": 106.4134938,
       "myUrl": "http://awoisoak.com/?border_gallery=ho-chi-minh"
     },
     {
       "id": "North Vietnam",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "North Vietnam",
-      "latitude": 21.0278,
-      "longitude": 105.8342,
+      "latitude": 21.022703,
+      "longitude": 105.8194112,
       "myUrl": "http://awoisoak.com/gallery/vietnam/"
     },
     {
       "id": "Ghorepani Poon Hill Trek",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Ghorepani Poon Hill Trek",
-      "latitude": 28.4008,
-      "longitude": 83.7000,
+      "latitude": 28.40064,
+      "longitude": 83.697474,
       "myUrl": "http://awoisoak.com/?border_gallery=ghorepani-pool-hill-trek"
     },
     {
       "id": "Kathmandu",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Kathmandu",
-      "latitude": 27.7172,
-      "longitude":85.3240 ,
+      "latitude": 27.7089559,
+      "longitude": 85.2910276 ,
       "myUrl": "http://awoisoak.com/gallery/kathmandu/"
     },
 
     {
       "id": "Pokhara",
       "svgPath": dartboardSVG,
-      "zoomLevel": 20,
+      "selectable": true,
       "scale": 1,
       "title": "Pokhara",
-      "latitude": 28.2380,
-      "longitude": 83.9956,
+      "latitude": 28.2297045,
+      "longitude": 83.8864069,
       "myUrl": "http://awoisoak.com/gallery/pokhara/"
     },
+    {
+      "id": "Estonia",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Estonia",
+      "latitude": 58.5999107,
+      "longitude": 23.8631122,
+      "myUrl": "http://awoisoak.com/gallery/estonia/"
+    },
+    {
+      "id": "Helsinki",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Helsinki",
+      "latitude": 60.1639301,
+      "longitude": 24.8998444,
+      "myUrl": "http://awoisoak.com/gallery/finland/"
+    },
+    {
+      "id": "Iceland",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Iceland",
+      "latitude": 64.9143556,
+      "longitude":-21.2612643,
+      "myUrl": "http://awoisoak.com/gallery/iceland/"
+    },
+    {
+      "id": "Ireland",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Ireland",
+      "latitude": 53.3242377,
+      "longitude": -6.3861282,
+      "myUrl": "http://awoisoak.com/gallery/ireland/"
+    },
+    {
+      "id": "Latvia",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Latvia",
+      "latitude": 56.8751259,
+      "longitude": 23.4821525,
+      "myUrl": "http://awoisoak.com/gallery/latvia/"
+    },
+    {
+      "id": "Lithuania",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Lithuania",
+      "latitude": 55.1684329,
+      "longitude": 22.7711894,
+      "myUrl": "http://awoisoak.com/gallery/lithuania/"
+    },
+    {
+      "id": "Stockholm",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Stockholm",
+      "latitude": 59.3260664,
+      "longitude": 17.8471221,
+      "myUrl": "http://awoisoak.com/gallery/sweden/"
+    },
+
+    {
+      "id": "United Kingdom",
+      "svgPath": targetSVG,
+      "zoomLevel": 10,
+      "scale": 2,
+      "title": "United Kingdom",
+      "latitude": 56.4782395,
+      "longitude": -3.0370439,
+      "images": 
+      	[ 	
+		    {
+		      "id": "London",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "London",
+		      "latitude": 51.5285578,
+		      "longitude": -0.2420425,
+		      "myUrl": "http://awoisoak.com/gallery/england/"
+		    },
+		 	{
+		      "id": "Arbroath",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Arbroath",
+		      "latitude": 56.5633591,
+		      "longitude": -2.6047868,
+		      "myUrl": "http://awoisoak.com/gallery/arbroath/"
+		    },
+		    {
+		      "id": "Dundee",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Dundee",
+		      "latitude": 56.4782395,
+		      "longitude": -3.0370439,
+		      "myUrl": "http://awoisoak.com/gallery/dundee/"
+		    },
+		    {
+		      "id": "Glasgow, Stirling & Falkirk",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Glasgow, Stirling & Falkirk",
+		      "latitude": 55.8554402,
+		      "longitude": -4.302333,
+		      "myUrl": "http://awoisoak.com/gallery/glasgow-stirling-falkirk/"
+		    },
+		    {
+		      "id": "Highlands",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Highlands",
+		      "latitude": 57.4679914,
+		      "longitude": -4.2569628,
+		      "myUrl": "http://awoisoak.com/gallery/highlands/"
+		    },
+		    {
+		      "id": "Isle Of Skye",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Isle Of Skye",
+		      "latitude": 57.3617192,
+		      "longitude": -6.7797696,
+		      "myUrl": "http://awoisoak.com/gallery/101821/"
+		    },
+		    {
+		      "id": "St. Andrews",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "St. Andrews",
+		      "latitude": 56.3398,
+		      "longitude": -2.8253288,
+		      "myUrl": "http://awoisoak.com/gallery/st-andrews/"
+		    },
+		    {
+		      "id": "Tentsmuir",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Tentsmuir",
+		      "latitude": 56.4200212,
+		      "longitude": -2.8727287,
+		      "myUrl": "http://awoisoak.com/gallery/tentsmuir/"
+		    }
+
+      	]
+    },
+    {
+      "id": "Vienna",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Vienna",
+      "latitude": 48.2206635,
+      "longitude": 16.309849,
+      "myUrl": "http://awoisoak.com/gallery/austria/"
+    },
+    {
+      "id": "Antwerp",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Antwerp",
+      "latitude": 51.2603011,
+      "longitude": 4.2301106,
+      "myUrl": "http://awoisoak.com/gallery/antwerp/"
+    },
+    {
+      "id": "Bruges",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Bruges",
+      "latitude": 51.2605829,
+      "longitude": 3.0817207,
+      "myUrl": "http://awoisoak.com/gallery/101958/"
+    },
+    {
+      "id": "Ghent",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Ghent",
+      "latitude": 51.082552,
+      "longitude": 3.5740607,
+      "myUrl": "http://awoisoak.com/gallery/101914/"
+    },
+    {
+      "id": "Nice",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Nice",
+      "latitude": 43.7030413,
+      "longitude": 7.1827233,
+      "myUrl": "http://awoisoak.com/gallery/france/"
+    },
+    {
+      "id": "Berlin & Oranienburg",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Berlin & Oranienburg",
+      "latitude": 52.5074588,
+      "longitude": 13.2857212,
+      "myUrl": "http://awoisoak.com/gallery/berlin-oranienburg/"
+    },
+    {
+      "id": "Bremen",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Bremen",
+      "latitude": 53.1201745,
+      "longitude": 8.5958617,
+      "myUrl": "http://awoisoak.com/gallery/bremen/"
+    },
+    {
+      "id": "Hamburg",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Hamburg",
+      "latitude": 53.5584898,
+      "longitude": 9.7873974,
+      "myUrl": "http://awoisoak.com/gallery/101442/"
+    },
+    {
+      "id": "Hannover",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Hannover",
+      "latitude": 52.3796456,
+      "longitude": 9.6912606,
+      "myUrl": "http://awoisoak.com/gallery/hannover/"
+    },
+    {
+      "id": "Munich & Ingolstadt",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Munich & Ingolstadt",
+      "latitude": 48.1548894,
+      "longitude": 11.4716248,
+      "myUrl": "http://awoisoak.com/gallery/munich-ingolstadt/"
+    },
+    {
+      "id": "Luxembourg",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Luxembourg",
+      "latitude": 49.8149602,
+      "longitude": 5.8524603,
+      "myUrl": "http://awoisoak.com/gallery/luxembourg/"
+    },
+    {
+      "id": "Monaco",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Monaco",
+      "latitude": 43.7383226,
+      "longitude": 7.4156819,
+      "myUrl": "http://awoisoak.com/gallery/monaco/"
+    },
+
+    {
+      "id": "Bulgaria",
+      "svgPath": targetSVG,
+      "zoomLevel": 25,
+      "scale": 2,
+      "title": "Bulgaria",
+      "latitude": 42.6954107,
+      "longitude": 23.2537356,
+      "images": 
+      	[ 
+		    {
+		      "id": "Lovech",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Lovech",
+		      "latitude": 43.1444687,
+		      "longitude": 24.6759395,
+		      "myUrl": "http://awoisoak.com/gallery/lovech/"
+		    },
+		    {
+		      "id": "Rila",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Rila",
+		      "latitude": 42.1853415,
+		      "longitude": 23.4167234,
+		      "myUrl": "http://awoisoak.com/gallery/rila/"
+		    },
+		    {
+		      "id": "Sofia",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Sofia",
+		      "latitude": 42.6954107,
+		      "longitude":23.2537356 ,
+		      "myUrl": "http://awoisoak.com/gallery/sofia/"
+		    },
+		    {
+		      "id": "Veliko Tarnovo",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Veliko Tarnovo",
+		      "latitude": 43.0840674,
+		      "longitude": 25.5980173,
+		      "myUrl": "http://awoisoak.com/gallery/veliko-tarnovo/"
+		    },
+		    {
+		      "id": "Vitosha",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "",
+		      "latitude": 42.55,
+		      "longitude": 23.247806,
+		      "myUrl": "http://awoisoak.com/gallery/vitosha/"
+		    },
+
+      	]
+    },  	
 
 
 
-        ]
+    {
+      "id": "Budapest",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Budapest",
+      "latitude": 47.4811277,
+      "longitude": 18.9898782,
+      "myUrl": "http://awoisoak.com/gallery/hungary/"
+    },
+    {
+      "id": "Romania",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Romania",
+      "latitude": 45.9222429,
+      "longitude": 22.7614768,
+      "myUrl": "http://awoisoak.com/gallery/romania/"
+    },
+    {
+      "id": "Transnistria",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Transnistria",
+      "latitude": 47.3610824,
+      "longitude": 28.678912,
+      "myUrl": "http://awoisoak.com/gallery/transnistria/"
+    },
+    {
+      "id": "Chernobyl",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Chernobyl",
+      "latitude": 51.2752971,
+      "longitude": 30.204333,
+      "myUrl": "http://awoisoak.com/gallery/chernobyl/"
+    },
+    {
+      "id": "Kiev",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Kiev",
+      "latitude": 50.401951,
+      "longitude": 30.3922661,
+      "myUrl": "http://awoisoak.com/gallery/kiev/"
+    },
+	{
+      "id": "Petergof",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Petergof",
+      "latitude": 59.8742713,
+      "longitude": 29.8587085,
+      "myUrl": "http://awoisoak.com/gallery/petergof/"
+    },
+    {
+      "id": "Saint Petersburg",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Saint Petersburg",
+      "latitude": 59.9171469,
+      "longitude": 30.0442034,
+      "myUrl": "http://awoisoak.com/gallery/saint-petersburg/"
+    },
+
+    {
+      "id": "Moscow",
+      "svgPath": targetSVG,
+      "zoomLevel": 35,
+      "scale": 2,
+      "title": "Moscow",
+      "latitude": 55.7494718,
+      "longitude": 37.3516385,
+      "images": 
+      	[ 
+		    {
+		      "id": "9 мая",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "9 мая",
+		      "latitude": 55.7488318,
+		      "longitude": 37.6226647,
+		      "myUrl": "http://awoisoak.com/?border_gallery=9-%D0%BC%D0%B0%D1%8F"
+		    },
+		    {
+		      "id": "Moscow",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Moscow",
+		      "latitude": 55.7494718,
+		      "longitude": 37.3516385,
+		      "myUrl": "http://awoisoak.com/gallery/moscow-city/"
+		    },
+		    {
+		      "id": "Park Pobedy",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Park Pobedy",
+		      "latitude": 55.7358848,
+		      "longitude": 37.5152984,
+		      "myUrl": "http://awoisoak.com/gallery/park-pobedy/"
+		    },
+		    {
+		      "id": "Novodevichy",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Novodevichy",
+		      "latitude": 55.7283501,
+		      "longitude": 37.5569208,
+		      "myUrl": "http://awoisoak.com/gallery/novodevichy/"
+		    },
+		    {
+		      "id": "Sergiyev Posad",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Sergiyev Posad",
+		      "latitude": 56.30581,
+		      "longitude": 38.088667,
+		      "myUrl": "http://awoisoak.com/gallery/sergiyev-posad/"
+		    },
+
+
+      	]
+    },  	
+    {
+      "id": "Bosnia and Herzegovina",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Bosnia and Herzegovina",
+      "latitude": 43.9110327,
+      "longitude": 16.548428,
+      "myUrl": "http://awoisoak.com/gallery/bosnia-and-herzegovina/"
+    },
+    {
+      "id": "Dubrovnik",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Dubrovnik",
+      "latitude": 42.6457243,
+      "longitude": 18.0765056,
+      "myUrl": "http://awoisoak.com/gallery/dubrovnik/"
+    },
+    {
+      "id": "Plitvice Lakes",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Plitvice Lakes",
+      "latitude": 44.8653966,
+      "longitude": 15.5798179,
+      "myUrl": "http://awoisoak.com/gallery/plitivice-lakes/"
+    },
+    {
+      "id": "Split",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Split",
+      "latitude": 43.5148461,
+      "longitude": 16.4139784,
+      "myUrl": "http://awoisoak.com/gallery/split/"
+    },
+    {
+      "id": "Zadar",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Zadar",
+      "latitude": 44.1349503,
+      "longitude": 15.2138089,
+      "myUrl": "http://awoisoak.com/gallery/zadar/"
+    },
+    {
+      "id": "Zagreb",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Zagreb",
+      "latitude": 45.8401744,
+      "longitude": 15.8941205,
+      "myUrl": "http://awoisoak.com/gallery/zagreb/"
+    },
+    {
+      "id": "Burano & Murano",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Burano & Murano",
+      "latitude": 45.4853442,
+      "longitude": 12.4150692,
+      "myUrl": "http://awoisoak.com/gallery/burano-murano/"
+    },
+    {
+      "id": "Milan",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Milan",
+      "latitude": 45.4627123,
+      "longitude": 9.1075212,
+      "myUrl": "http://awoisoak.com/gallery/milan/"
+    },
+    {
+      "id": "Trieste",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Trieste",
+      "latitude": 45.6523148,
+      "longitude": 13.7485568,
+      "myUrl": "http://awoisoak.com/gallery/trieste/"
+    },
+    {
+      "id": "Venice",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Venice",
+      "latitude": 45.4055776,
+      "longitude": 12.2413175,
+      "myUrl": "http://awoisoak.com/gallery/venice/"
+    },
+    {
+      "id": "Montenegro, Kosovo , Macedonia & Albania",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Montenegro, Kosovo , Macedonia & Albania",
+      "latitude": 42.2136071,
+      "longitude": 20.3029722,
+      "myUrl": "http://awoisoak.com/gallery/102245/"
+    },
+    {
+      "id": "Porto",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Porto",
+      "latitude": 41.1628634,
+      "longitude": -8.6569582,
+      "myUrl": "http://awoisoak.com/gallery/portugal/"
+    },
+    {
+      "id": "Belgrade",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Belgrade",
+      "latitude": 44.1887195,
+      "longitude": 18.6743723,
+      "myUrl": "http://awoisoak.com/gallery/serbia/"
+    },
+    {
+      "id": "Spain",
+      "svgPath": targetSVG,
+      "zoomLevel": 25,
+      "scale": 2,
+      "title": "Spain",
+      "latitude": 40.9172672,
+      "longitude": -1.3090732,
+            "images": 
+      	[ 
+		    {
+		      "id": "Barcelona",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Barcelona",
+		      "latitude": 41.3947687,
+		      "longitude": 2.0785567,
+		      "myUrl": "http://awoisoak.com/gallery/barcelona/"
+		    },
+		    {
+		      "id": "Granada",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Granada",
+		      "latitude": 37.180945,
+		      "longitude": -3.6088242,
+		      "myUrl": "http://awoisoak.com/gallery/granada/"
+		    }, 
+		    {
+		      "id": "Madrid",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Madrid",
+		      "latitude": 40.4378693,
+		      "longitude": -3.8199623,
+		      "myUrl": "http://awoisoak.com/gallery/madrid/"
+		    },
+
+		]
+    },     	
+
+    {
+      "id": "Tenerife",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Tenerife",
+      "latitude": 28.2931058,
+      "longitude": -16.8035233,
+      "myUrl": "http://awoisoak.com/gallery/tenerife/"
+    },
+    {
+      "id": "South Island",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "South Island",
+      "latitude": -43.56479,
+      "longitude": 168.1864215,
+      "myUrl": "http://awoisoak.com/gallery/south-island/"
+    },
+    {
+      "id": "North Island",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "North Island",
+      "latitude": -37.8367173,
+      "longitude": 173.0931395,
+      "myUrl": "http://awoisoak.com/gallery/north-island/"
+    },
+    {
+      "id": "Cairns & Cape Tribulation",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Cairns & Cape Tribulation",
+      "latitude": -16.4129301,
+      "longitude": 142.9979353,
+      "myUrl": "http://awoisoak.com/gallery/cairns-cape-tribulation/"
+    },
+    {
+      "id": "Brisbane",
+      "svgPath": targetSVG,
+      "zoomLevel": 35,
+      "scale": 2,
+      "title": "Brisbane",
+      "latitude": -27.3818598,
+      "longitude": 152.7123351,
+      "images": 
+      	[ 
+			{
+		      "id": "Brisbane",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Brisbane",
+		      "latitude": -27.3818598,
+		      "longitude": 152.7123351,
+		      "myUrl": "http://awoisoak.com/gallery/brisbane/"
+		    },
+		    {
+		      "id": "Fraser Island",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Fraser Island",
+		      "latitude": -25.2469444,
+		      "longitude": 152.8705584,
+		      "myUrl": "http://awoisoak.com/gallery/fraser-island/"
+		    },
+		    {
+		      "id": "Mooloolaba & Dreamworld",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Mooloolaba & Dreamworld",
+		      "latitude": -26.6849603,
+		      "longitude": 153.106889,
+		      "myUrl": "http://awoisoak.com/gallery/mooloolaba-dreamworld/"
+		    },
+		    {
+		      "id": "Noosa & Stradbroke Island",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Noosa & Stradbroke Island",
+		      "latitude": -26.3181943,
+		      "longitude": 152.8009457,
+		      "myUrl": "http://awoisoak.com/gallery/stradbroke-island/"
+		    },
+		    {
+		      "id": "Byron Bay & Nimbin",
+		      "svgPath": dartboardSVG,
+		      "selectable": true,
+		      "scale": 1,
+		      "title": "Byron Bay & Nimbin",
+		      "latitude": -28.6469767,
+		      "longitude": 153.5852677,
+		      "myUrl": "http://awoisoak.com/gallery/byron-bay/"
+		    }
+		]
+	},
+
+    {
+      "id": "Sidney & Blue Mountains",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Sidney & Blue Mountains",
+      "latitude": -33.8479715,
+      "longitude":150.651096 ,
+      "myUrl": "http://awoisoak.com/gallery/sidney-blue-mountains/"
+    },
+    {
+      "id": "Kakadu National Park",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Kakadu National Park",
+      "latitude": -13.0922931,
+      "longitude": 132.3915718,
+      "myUrl": "http://awoisoak.com/gallery/kakadu-national-park/"
+    },
+    {
+      "id": "King Canyon & Devil Marbles",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "King Canyon & Devil Marbles",
+      "latitude": -24.2214887,
+      "longitude": 131.579162,
+      "myUrl": "http://awoisoak.com/gallery/kings-canyon-devil-marbles/"
+    },
+    {
+      "id": "Uluru-Kata Tjuta",
+      "svgPath": dartboardSVG,
+      "selectable": true,
+      "scale": 1,
+      "title": "Uluru-Kata Tjuta",
+      "latitude": -25.3124125,
+      "longitude": 130.7414871,
+      "myUrl": "http://awoisoak.com/gallery/uluru-kata-tjuta/"
+    },
+   ]
   },
 
   "listeners": [ {
@@ -798,12 +1595,4 @@ function clickObject( id ) {
   map.clickMapObject( map.getObjectById( id ) );
 }
 
-
-// map.addListener("clickMapObject", function(event) {
-//   $.fancybox({
-//     href: event.mapObject.modalUrl,
-//     title: event.mapObject.title,
-//     type: "iframe"
-//   });
-// });
 
