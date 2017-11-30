@@ -1,9 +1,7 @@
 // svg path for different icons
+// var markerSVG = "M17.592,8.936l-6.531-6.534c-0.593-0.631-0.751-0.245-0.751,0.056l0.002,2.999L5.427,9.075H2.491c-0.839,0-0.162,0.901-0.311,0.752l3.683,3.678l-3.081,3.108c-0.17,0.171-0.17,0.449,0,0.62c0.169,0.17,0.448,0.17,0.618,0l3.098-3.093l3.675,3.685c-0.099-0.099,0.773,0.474,0.773-0.296v-2.965l3.601-4.872l2.734-0.005C17.73,9.688,18.326,9.669,17.592,8.936 M3.534,9.904h1.906l4.659,4.66v1.906L3.534,9.904z M10.522,13.717L6.287,9.48l4.325-3.124l3.088,3.124L10.522,13.717z M14.335,8.845l-3.177-3.177V3.762l5.083,5.083H14.335z"
 var dartboardSVG = "M9,0C4.029,0,0,4.029,0,9s4.029,9,9,9s9-4.029,9-9S13.971,0,9,0z M9,15.93 c-3.83,0-6.93-3.1-6.93-6.93S5.17,2.07,9,2.07s6.93,3.1,6.93,6.93S12.83,15.93,9,15.93 M12.5,9c0,1.933-1.567,3.5-3.5,3.5S5.5,10.933,5.5,9S7.067,5.5,9,5.5 S12.5,7.067,12.5,9z";
-var markerSVG = "M17.592,8.936l-6.531-6.534c-0.593-0.631-0.751-0.245-0.751,0.056l0.002,2.999L5.427,9.075H2.491c-0.839,0-0.162,0.901-0.311,0.752l3.683,3.678l-3.081,3.108c-0.17,0.171-0.17,0.449,0,0.62c0.169,0.17,0.448,0.17,0.618,0l3.098-3.093l3.675,3.685c-0.099-0.099,0.773,0.474,0.773-0.296v-2.965l3.601-4.872l2.734-0.005C17.73,9.688,18.326,9.669,17.592,8.936 M3.534,9.904h1.906l4.659,4.66v1.906L3.534,9.904z M10.522,13.717L6.287,9.48l4.325-3.124l3.088,3.124L10.522,13.717z M14.335,8.845l-3.177-3.177V3.762l5.083,5.083H14.335z"
-var targetSVG = "M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z"
-var personSVG = "M14.023,12.154c1.514-1.192,2.488-3.038,2.488-5.114c0-3.597-2.914-6.512-6.512-6.512c-3.597,0-6.512,2.916-6.512,6.512c0,2.076,0.975,3.922,2.489,5.114c-2.714,1.385-4.625,4.117-4.836,7.318h1.186c0.229-2.998,2.177-5.512,4.86-6.566c0.853,0.41,1.804,0.646,2.813,0.646c1.01,0,1.961-0.236,2.812-0.646c2.684,1.055,4.633,3.568,4.859,6.566h1.188C18.648,16.271,16.736,13.539,14.023,12.154z M10,12.367c-2.943,0-5.328-2.385-5.328-5.327c0-2.943,2.385-5.328,5.328-5.328c2.943,0,5.328,2.385,5.328,5.328C15.328,9.982,12.943,12.367,10,12.367z"
-var planeSVG = "M17.218,2.268L2.477,8.388C2.13,8.535,2.164,9.05,2.542,9.134L9.33,10.67l1.535,6.787c0.083,0.377,0.602,0.415,0.745,0.065l6.123-14.74C17.866,2.46,17.539,2.134,17.218,2.268 M3.92,8.641l11.772-4.89L9.535,9.909L3.92,8.641z M11.358,16.078l-1.268-5.613l6.157-6.157L11.358,16.078z"
+var houseSVG = "M18.121,9.88l-7.832-7.836c-0.155-0.158-0.428-0.155-0.584,0L1.842,9.913c-0.262,0.263-0.073,0.705,0.292,0.705h2.069v7.042c0,0.227,0.187,0.414,0.414,0.414h3.725c0.228,0,0.414-0.188,0.414-0.414v-3.313h2.483v3.313c0,0.227,0.187,0.414,0.413,0.414h3.726c0.229,0,0.414-0.188,0.414-0.414v-7.042h2.068h0.004C18.331,10.617,18.389,10.146,18.121,9.88 M14.963,17.245h-2.896v-3.313c0-0.229-0.186-0.415-0.414-0.415H8.342c-0.228,0-0.414,0.187-0.414,0.415v3.313H5.032v-6.628h9.931V17.245z M3.133,9.79l6.864-6.868l6.867,6.868H3.133z"
 var currentObject;
 
 var $CHART$ = AmCharts.makeChart( "$CHART$", {
@@ -30,11 +28,12 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     }, {
       "title": "I've visited",
       "color": "#29b1db"
-    },
-    {
-      "title": "Moving to",
-      "color": "#53b2af"
-    }]
+    }
+    // ,{
+    //   "title": "Moving to",
+    //   "color": "#53b2af"
+    // }
+    ]
   },
 
 
@@ -69,7 +68,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     },
     {
       "id": "CA",
-      "color":"#53b2af"
+      "color":"#efda21"
     },
     {
       "id": "ES",
@@ -272,25 +271,39 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     "images": [ 
 
     {
-      "id": "Vancouver",
-      "svgPath": markerSVG,
+      "id": "Canada",
+      "svgPath": houseSVG,
       "selectable": true,
+      "zoomLevel": 7,
       "scale": 2,
-      "title": "Vancouver",
+      "title": "Canada",
       "latitude": 49.2577142,
       "longitude": -123.1941149,
-    },
+      "images": 
+        [   {
+            "id": "Vancouver",
+          "svgPath": dartboardSVG,
+          "selectable": true,
+          "scale": 1,
+          "title": "Vancouver",
+          "latitude": 49.2577142,
+          "longitude": -123.1941149,
+          "myUrl": "http://awoisoak.com/gallery/vancouver/"
+          },
+          
+       ]
+   },
 
-    {
-      "id": "Cairo",
-      "svgPath": dartboardSVG,
-      "selectable": true,
-      "scale": 1,
-      "title": "Egypt",
-      "latitude": 30.0594838,
-      "longitude": 31.2233591,
-      "myUrl": "http://awoisoak.com/gallery/egypt/",
-    },
+  {
+    "id": "Cairo",
+    "svgPath": dartboardSVG,
+    "selectable": true,
+    "scale": 1,
+    "title": "Egypt",
+    "latitude": 30.0594838,
+    "longitude": 31.2233591,
+    "myUrl": "http://awoisoak.com/gallery/egypt/",
+  },
 
 	{
 	  "id": "Guangzhou",
@@ -337,7 +350,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 
     {
       "id": "Japan",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 19,
       "scale": 2,
       "title": "Japan",
@@ -529,7 +542,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 
     {
       "id": "Taiwan",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 25,
       "scale": 2,
       "title": "Taiwan",
@@ -1073,7 +1086,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 
     {
       "id": "United Kingdom",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 10,
       "scale": 2,
       "title": "United Kingdom",
@@ -1287,7 +1300,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 
     {
       "id": "Bulgaria",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 25,
       "scale": 2,
       "title": "Bulgaria",
@@ -1424,7 +1437,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 
     {
       "id": "Moscow",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 35,
       "scale": 2,
       "title": "Moscow",
@@ -1618,7 +1631,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     },
     {
       "id": "Spain",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 20,
       "scale": 2,
       "title": "Spain",
@@ -1702,7 +1715,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     },
     {
       "id": "Brisbane",
-      "svgPath": targetSVG,
+      "svgPath": houseSVG,
       "zoomLevel": 35,
       "scale": 2,
       "title": "Brisbane",
