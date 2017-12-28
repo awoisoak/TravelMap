@@ -280,8 +280,10 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "latitude": 49.2577142,
       "longitude": -123.1941149,
       "images": 
-        [   {
-            "id": "Vancouver",
+        [   
+
+         {
+          "id": "Vancouver",
           "svgPath": dartboardSVG,
           "selectable": true,
           "scale": 1,
@@ -289,6 +291,16 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
           "latitude": 49.2577142,
           "longitude": -123.1941149,
           "myUrl": "http://awoisoak.com/gallery/vancouver/"
+          },
+                   {
+          "id": "Squamish",
+          "svgPath": dartboardSVG,
+          "selectable": true,
+          "scale": 1,
+          "title": "Squamish",
+          "latitude": 49.7567833,
+          "longitude": -123.3156172,
+          "myUrl": "http://awoisoak.com/gallery/squamish/"
           },
           
        ]
