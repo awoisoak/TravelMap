@@ -293,6 +293,16 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
           "myUrl": "http://awoisoak.com/gallery/vancouver/"
           },
                    {
+          "id": "Vancouver Island",
+          "svgPath": dartboardSVG,
+          "selectable": true,
+          "scale": 1,
+          "title": "Vancouver Island",
+          "latitude": 49.6487291,
+          "longitude": -125.8377309,
+          "myUrl": "http://awoisoak.com/vancouver-island/"
+          },
+                   {
           "id": "Squamish",
           "svgPath": dartboardSVG,
           "selectable": true,
