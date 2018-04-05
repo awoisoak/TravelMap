@@ -290,7 +290,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
           "title": "Vancouver",
           "latitude": 49.2577142,
           "longitude": -123.1941149,
-          "myUrl": "http://awoisoak.com/gallery/vancouver/"
+          "myUrl": "https://awoisoak.com/gallery/vancouver/"
           },
                    {
           "id": "Vancouver Island",
@@ -300,7 +300,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
           "title": "Vancouver Island",
           "latitude": 49.6487291,
           "longitude": -125.8377309,
-          "myUrl": "http://awoisoak.com/vancouver-island/"
+          "myUrl": "https://awoisoak.com/vancouver-island/"
           },
                    {
           "id": "Squamish",
@@ -310,7 +310,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
           "title": "Squamish",
           "latitude": 49.7567833,
           "longitude": -123.3156172,
-          "myUrl": "http://awoisoak.com/gallery/squamish/"
+          "myUrl": "https://awoisoak.com/gallery/squamish/"
           },
           
        ]
@@ -324,7 +324,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
     "title": "Egypt",
     "latitude": 30.0594838,
     "longitude": 31.2233591,
-    "myUrl": "http://awoisoak.com/gallery/egypt/",
+    "myUrl": "https://awoisoak.com/gallery/egypt/",
   },
 
 	{
@@ -335,7 +335,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Guangzhou",
       "latitude": 23.1253491,
       "longitude": 112.9469735,
-      "myUrl": "http://awoisoak.com/gallery/guangzhou/"
+      "myUrl": "https://awoisoak.com/gallery/guangzhou/"
 	},
 	{
       "id": "Qibao & Zhujiajiao",
@@ -345,7 +345,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Qibao & Zhujiajiao",
       "latitude": 31.157657,
       "longitude": 121.349174,
-      "myUrl": "http://awoisoak.com/gallery/qibao-zhujiajiao/"
+      "myUrl": "https://awoisoak.com/gallery/qibao-zhujiajiao/"
     },
     {
       "id": "Shanghai",
@@ -355,7 +355,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Shanghai",
       "latitude": 31.2240438,
       "longitude": 121.1958847,
-      "myUrl": "http://awoisoak.com/gallery/shanghai/"
+      "myUrl": "https://awoisoak.com/gallery/shanghai/"
     },
 
 
@@ -367,7 +367,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Hong Kong",
       "latitude": 22.3576177,
       "longitude": 113.980586,
-      "myUrl": "http://awoisoak.com/gallery/hong-kong/"
+      "myUrl": "https://awoisoak.com/gallery/hong-kong/"
     },
 
     {
@@ -387,7 +387,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Fujikawaguchiko",
 		      "latitude": 35.482548,
 		      "longitude": 138.625623,
-		      "myUrl": "http://awoisoak.com/gallery/fujikawaguchiko/"
+		      "myUrl": "https://awoisoak.com/gallery/fujikawaguchiko/"
       		},
       		{
 		      "id": "Himeji",
@@ -397,7 +397,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Himeji",
 		      "latitude": 34.9259075,
 		      "longitude": 134.5452272,
-		      "myUrl": "http://awoisoak.com/gallery/himeji/"
+		      "myUrl": "https://awoisoak.com/gallery/himeji/"
     		},
     		{
 		      "id": "Kamakura & Enoshima",
@@ -407,7 +407,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Kamakura & Enoshima",
 		      "latitude": 35.333922,
 		      "longitude": 139.5057027,
-		      "myUrl": "http://awoisoak.com/gallery/kamakura/"
+		      "myUrl": "https://awoisoak.com/gallery/kamakura/"
   		    },
 		    {
 		      "id": "Kobe",
@@ -417,7 +417,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Kobe",
 		      "latitude": 34.694295,
 		      "longitude": 135.1555948,
-		      "myUrl": "http://awoisoak.com/gallery/kobe/"
+		      "myUrl": "https://awoisoak.com/gallery/kobe/"
 		    },
 		    {
 		      "id": "Kyoto",
@@ -427,7 +427,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Kyoto",
 		      "latitude": 35.0060949,
 		      "longitude": 135.7258448,
-		      "myUrl": "http://awoisoak.com/gallery/kyoto/"
+		      "myUrl": "https://awoisoak.com/gallery/kyoto/"
 		    },
 		    {
 		      "id": "Mt. Fuji",
@@ -437,7 +437,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Mt. Fuji",
 		      "latitude": 35.3605555,
 		      "longitude": 138.7255837,
-		      "myUrl": "http://awoisoak.com/gallery/mount-fuji/"
+		      "myUrl": "https://awoisoak.com/gallery/mount-fuji/"
 		    },
 		    {
 		      "id": "Nara",
@@ -447,7 +447,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Nara",
 		      "latitude": 34.6868987,
 		      "longitude": 135.7912975,
-		      "myUrl": "http://awoisoak.com/gallery/nara/"
+		      "myUrl": "https://awoisoak.com/gallery/nara/"
 		    },
 		    {
 		      "id": "Nikko",
@@ -457,7 +457,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Nikko",
 		      "latitude": 36.8463038,
 		      "longitude": 139.4496884,
-		      "myUrl": "http://awoisoak.com/gallery/nikko/"
+		      "myUrl": "https://awoisoak.com/gallery/nikko/"
 		    },
 		    {
 		      "id": "Nokogiriyama",
@@ -467,7 +467,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Nokogiriyama",
 		      "latitude": 35.160391,
 		      "longitude": 139.8386754,
-		      "myUrl": "http://awoisoak.com/gallery/nokogiriyama/"
+		      "myUrl": "https://awoisoak.com/gallery/nokogiriyama/"
 		    },
 		    {
 		      "id": "Osaka",
@@ -477,7 +477,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Osaka",
 		      "latitude": 34.6783987,
 		      "longitude": 135.4775975,
-		      "myUrl": "http://awoisoak.com/gallery/osaka/"
+		      "myUrl": "https://awoisoak.com/gallery/osaka/"
 		    },
 		    {
 		      "id": "Tateyama Kurobe Alpine Route",
@@ -487,7 +487,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Tateyama Kurobe Alpine Route",
 		      "latitude": 36.5704851,
 		      "longitude": 137.5147513,
-		      "myUrl": "http://awoisoak.com/gallery/tateyama-kurobe-alpine-route/"
+		      "myUrl": "https://awoisoak.com/gallery/tateyama-kurobe-alpine-route/"
 		    },
 		    {
 		      "id": "Shirakawa-go, Matsumoto & Hakone",
@@ -497,7 +497,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Shirakawa-go, Matsumoto & Hakone",
 		      "latitude": 36.2560756,
 		      "longitude": 136.9039856,
-		      "myUrl": "http://awoisoak.com/gallery/shirakawa-go_matsumoto_hakone/"
+		      "myUrl": "https://awoisoak.com/gallery/shirakawa-go_matsumoto_hakone/"
 		    },
 		    {
 		      "id": "Tokyo",
@@ -507,7 +507,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Tokyo",
 		      "latitude": 35.6732615,
 		      "longitude": 139.5699619,
-		      "myUrl": "http://awoisoak.com/gallery/tokyo/"
+		      "myUrl": "https://awoisoak.com/gallery/tokyo/"
 		    },
 		    {
 		      "id": "Yokohama",
@@ -517,7 +517,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Yokohama",
 		      "latitude": 35.4619449,
 		      "longitude": 139.5841448,
-		      "myUrl": "http://awoisoak.com/gallery/yokohama/"
+		      "myUrl": "https://awoisoak.com/gallery/yokohama/"
 		    }
        ]
    },
@@ -529,7 +529,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Macau",
       "latitude": 22.1634129,
       "longitude": 113.5283596,
-      "myUrl": "http://awoisoak.com/gallery/macau/"
+      "myUrl": "https://awoisoak.com/gallery/macau/"
     },
     {
       "id": "Mongolia",
@@ -539,7 +539,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Mongolia",
       "latitude": 47.8916287,
       "longitude": 106.8316604,
-      "myUrl": "http://awoisoak.com/gallery/mongolia/"
+      "myUrl": "https://awoisoak.com/gallery/mongolia/"
     },
     {
       "id": "Busan",
@@ -549,7 +549,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Busan",
       "latitude": 35.1644297,
       "longitude": 129.0015887,
-      "myUrl": "http://awoisoak.com/gallery/busan/"
+      "myUrl": "https://awoisoak.com/gallery/busan/"
     },
     {
       "id": "Seoul",
@@ -559,7 +559,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Seoul",
       "latitude": 37.5650168,
       "longitude": 126.8491241,
-      "myUrl": "http://awoisoak.com/gallery/seoul/"
+      "myUrl": "https://awoisoak.com/gallery/seoul/"
     },
 
     {
@@ -580,7 +580,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Caoling & Taoyuan",
 		      "latitude": 24.9715161,
 		      "longitude": 121.9263685,
-		      "myUrl": "http://awoisoak.com/gallery/caoling-taoyuan/"
+		      "myUrl": "https://awoisoak.com/gallery/caoling-taoyuan/"
 		    },
 		    {
 		      "id": "Jiufen",
@@ -590,7 +590,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Jiufen",
 		      "latitude": 25.1086957,
 		      "longitude": 121.8411754,
-		      "myUrl": "http://awoisoak.com/gallery/jiufen/"
+		      "myUrl": "https://awoisoak.com/gallery/jiufen/"
 		    },
 		    {
 		      "id": "Keelung",
@@ -600,7 +600,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Keelung",
 		      "latitude": 25.1240385,
 		      "longitude": 121.6819498,
-		      "myUrl": "http://awoisoak.com/gallery/keelung/"
+		      "myUrl": "https://awoisoak.com/gallery/keelung/"
 		    },
 		    {
 		      "id": "Matsu",
@@ -610,7 +610,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Matsu",
 		      "latitude": 26.1592465,
 		      "longitude": 120.0758576,
-		      "myUrl": "http://awoisoak.com/gallery/matsu/"
+		      "myUrl": "https://awoisoak.com/gallery/matsu/"
 		    },
 		    {
 		      "id": "Pingxi & Shifen",
@@ -620,7 +620,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Pingxi & Shifen",
 		      "latitude": 25.0256853,
 		      "longitude": 121.6788977,
-		      "myUrl": "http://awoisoak.com/gallery/pingxi-shifen/"
+		      "myUrl": "https://awoisoak.com/gallery/pingxi-shifen/"
 		    },
 		    {
 		      "id": "Taipei & Surrounds",
@@ -630,7 +630,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Taipei & Surrounds",
 		      "latitude": 25.0330,
 		      "longitude": 121.5654,
-		      "myUrl": "http://awoisoak.com/gallery/taipei-surrounds-2/"
+		      "myUrl": "https://awoisoak.com/gallery/taipei-surrounds-2/"
 		    },
 		    {
 		      "id": "Teapot Mountain",
@@ -640,7 +640,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Teapot Mountain",
 		      "latitude": 25.1095149,
 		      "longitude": 121.8598111,
-		      "myUrl": "http://awoisoak.com/gallery/teapot-mountain/"
+		      "myUrl": "https://awoisoak.com/gallery/teapot-mountain/"
 		    },
 		    {
 		      "id": "Yilan",
@@ -650,7 +650,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Yilan",
 		      "latitude": 24.7502185,
 		      "longitude": 121.7410691,
-		      "myUrl": "http://awoisoak.com/gallery/yilan/"
+		      "myUrl": "https://awoisoak.com/gallery/yilan/"
 		    },
 		    {
 		      "id": "Alishan",
@@ -660,7 +660,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Alishan",
 		      "latitude": 23.4495571,
 		      "longitude": 120.6593613,
-		      "myUrl": "http://awoisoak.com/gallery/alishan/"
+		      "myUrl": "https://awoisoak.com/gallery/alishan/"
 		    },
 		    {
 		      "id": "Taroko National Park & Sixty Rock Mountains",
@@ -670,7 +670,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Taroko National Park & Sixty Rock Mountains",
 		      "latitude": 24.1587068,
 		      "longitude": 121.6194357,
-		      "myUrl": "http://awoisoak.com/gallery/hualien-taroko/"
+		      "myUrl": "https://awoisoak.com/gallery/hualien-taroko/"
 		    },
 		    {
 		      "id": "Nantou",
@@ -680,7 +680,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Nantou",
 		      "latitude": 23.8405924,
 		      "longitude": 120.7016478,
-		      "myUrl": "http://awoisoak.com/gallery/nantou/"
+		      "myUrl": "https://awoisoak.com/gallery/nantou/"
 		    },
 		    {
 		      "id": "Sun Moon Lake",
@@ -690,7 +690,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Sun Moon Lake",
 		      "latitude": 23.8523012,
 		      "longitude":120.9008998 ,
-		      "myUrl": "http://awoisoak.com/gallery/sun-moon-lake/"
+		      "myUrl": "https://awoisoak.com/gallery/sun-moon-lake/"
 		    },
 		    {
 		      "id": "Wuling",
@@ -700,7 +700,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Wuling",
 		      "latitude": 24.1980065,
 		      "longitude": 121.0893024,
-		      "myUrl": "http://awoisoak.com/gallery/wuling/"
+		      "myUrl": "https://awoisoak.com/gallery/wuling/"
 		    },
 		    {
 		      "id": "Yuanzi",
@@ -710,7 +710,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Yuanzi",
 		      "latitude": 24.2368984,
 		      "longitude": 120.9706112,
-		      "myUrl": "http://awoisoak.com/gallery/yuanzui/"
+		      "myUrl": "https://awoisoak.com/gallery/yuanzui/"
 		    },
 		    {
 		      "id": "Dulan & Chisang",
@@ -720,7 +720,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Dulan & Chisang",
 		      "latitude": 22.8830209,
 		      "longitude": 121.1987346,
-		      "myUrl": "http://awoisoak.com/gallery/dulan-chishang/"
+		      "myUrl": "https://awoisoak.com/gallery/dulan-chishang/"
 		    },
 		    {
 		      "id": "Green Island",
@@ -730,7 +730,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Green Island",
 		      "latitude": 22.6563162,
 		      "longitude": 121.4711125,
-		      "myUrl": "http://awoisoak.com/gallery/green-island/"
+		      "myUrl": "https://awoisoak.com/gallery/green-island/"
 		    },
 		    {
 		      "id": "Kaohsiung",
@@ -740,7 +740,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Kaohsiung",
 		      "latitude": 22.6995934,
 		      "longitude": 120.1906609,
-		      "myUrl": "http://awoisoak.com/gallery/kaohsiung/"
+		      "myUrl": "https://awoisoak.com/gallery/kaohsiung/"
 		    },
 		    {
 		      "id": "Kenting",
@@ -750,7 +750,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Kenting",
 		      "latitude": 21.9483307,
 		      "longitude": 120.7775576,
-		      "myUrl": "http://awoisoak.com/gallery/kenting/"
+		      "myUrl": "https://awoisoak.com/gallery/kenting/"
 		    },
 		    {
 		      "id": "Lanyu",
@@ -760,7 +760,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Lanyu",
 		      "latitude": 22.0268319,
 		      "longitude": 121.5405837,
-		      "myUrl": "http://awoisoak.com/gallery/lanyu/"
+		      "myUrl": "https://awoisoak.com/gallery/lanyu/"
 		    },
 		    {
 		      "id": "Maolin",
@@ -770,7 +770,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Maolin",
 		      "latitude": 22.9187384,
 		      "longitude": 120.6887898,
-		      "myUrl": "http://awoisoak.com/gallery/maolin/"
+		      "myUrl": "https://awoisoak.com/gallery/maolin/"
 		    },
 		    {
 		      "id": "Tainan",
@@ -780,7 +780,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Tainan",
 		      "latitude": 23.1226787,
 		      "longitude": 120.1058917,
-		      "myUrl": "http://awoisoak.com/gallery/tainan/"
+		      "myUrl": "https://awoisoak.com/gallery/tainan/"
 		    },
 		    {
 		      "id": "Xiaoliuqiu",
@@ -790,7 +790,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Xiaoliuqiu",
 		      "latitude": 22.3388461,
 		      "longitude": 120.3624885,
-		      "myUrl": "http://awoisoak.com/gallery/xiaoliuqiu/"
+		      "myUrl": "https://awoisoak.com/gallery/xiaoliuqiu/"
 		    },
         {
           "id": "Jiaming Lake",
@@ -800,7 +800,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
           "title": "Jiaming Lake",
           "latitude": 23.2934138,
           "longitude": 121.0319127,
-          "myUrl": "http://http://awoisoak.com/gallery/jiaming-lake/"
+          "myUrl": "https://https://awoisoak.com/gallery/jiaming-lake/"
         }
       	]
     },
@@ -812,7 +812,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Siberia",
       "latitude": 52.2983665,
       "longitude": 104.1969472,
-      "myUrl": "http://awoisoak.com/gallery/siberia/"
+      "myUrl": "https://awoisoak.com/gallery/siberia/"
     },	
     {
       "id": "Istanbul",
@@ -822,7 +822,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Istanbul",
       "latitude": 41.0052363,
       "longitude": 28.8717539,
-      "myUrl": "http://awoisoak.com/gallery/turkey/"
+      "myUrl": "https://awoisoak.com/gallery/turkey/"
     },
     {
       "id": "Abu Dhabi",
@@ -832,7 +832,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Abu Dhabi",
       "latitude": 24.3864834,
       "longitude": 54.4194809,
-      "myUrl": "http://awoisoak.com/gallery/abu-dhabi/"
+      "myUrl": "https://awoisoak.com/gallery/abu-dhabi/"
     },
     {
       "id": "Dubai",
@@ -842,7 +842,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Dubai",
       "latitude": 25.0742929,
       "longitude": 55.0876784,
-      "myUrl": "http://awoisoak.com/gallery/dubai/"
+      "myUrl": "https://awoisoak.com/gallery/dubai/"
     },
     {
       "id": "Cambodia",
@@ -852,7 +852,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Cambodia",
       "latitude": 12.2996169,
       "longitude": 103.8566539,
-      "myUrl": "http://awoisoak.com/gallery/cambodia/"
+      "myUrl": "https://awoisoak.com/gallery/cambodia/"
     },
     {
       "id": "Bali",
@@ -862,7 +862,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Bali",
       "latitude": -8.455996,
       "longitude": 114.7906702,
-      "myUrl": "http://awoisoak.com/gallery/bali/"
+      "myUrl": "https://awoisoak.com/gallery/bali/"
     },
     {
       "id": "Komodo",
@@ -872,7 +872,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Komodo",
       "latitude": -8.6000756,
       "longitude": 119.5104427,
-      "myUrl": "http://awoisoak.com/gallery/komodo/"
+      "myUrl": "https://awoisoak.com/gallery/komodo/"
     },
     {
       "id": "Bohol",
@@ -882,7 +882,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Bohol",
       "latitude": 9.8677399,
       "longitude": 123.888226,
-      "myUrl": "http://awoisoak.com/gallery/bohol/"
+      "myUrl": "https://awoisoak.com/gallery/bohol/"
     },
     {
       "id": "Donsol",
@@ -892,7 +892,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "",
       "latitude": 12.9644514,
       "longitude": 123.5187043,
-      "myUrl": "http://awoisoak.com/gallery/donsol/"
+      "myUrl": "https://awoisoak.com/gallery/donsol/"
     },
     {
       "id": "El Nido",
@@ -902,7 +902,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "El Nido",
       "latitude": 11.2050867,
       "longitude": 119.2656554,
-      "myUrl": "http://awoisoak.com/gallery/el-nido/"
+      "myUrl": "https://awoisoak.com/gallery/el-nido/"
     },
     {
       "id": "Legazpi",
@@ -912,7 +912,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Legazpi",
       "latitude": 13.1209017,
       "longitude": 123.7029626,
-      "myUrl": "http://awoisoak.com/gallery/legazpi/"
+      "myUrl": "https://awoisoak.com/gallery/legazpi/"
     },
     {
       "id": "Manila",
@@ -922,7 +922,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Manila",
       "latitude": 14.5964957,
       "longitude": 120.9443574,
-      "myUrl": "http://awoisoak.com/gallery/manila/"
+      "myUrl": "https://awoisoak.com/gallery/manila/"
     },
     {
       "id": "Siargao",
@@ -932,7 +932,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Siargao",
       "latitude":9.9040649,
       "longitude":125.9189328,
-      "myUrl": "http://awoisoak.com/gallery/siargao/"
+      "myUrl": "https://awoisoak.com/gallery/siargao/"
     },
     {
       "id": "Laos",
@@ -942,7 +942,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Laos",
       "latitude": 19.885636,
       "longitude": 102.1280049,
-      "myUrl": "http://awoisoak.com/gallery/laos/"
+      "myUrl": "https://awoisoak.com/gallery/laos/"
     },
     {
       "id": "Kuala Lumpur",
@@ -952,7 +952,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Kuala Lumpur",
       "latitude": 3.1385035,
       "longitude": 101.6167778,
-      "myUrl": "http://awoisoak.com/gallery/101283/"
+      "myUrl": "https://awoisoak.com/gallery/101283/"
     },
     {
       "id": "Myanmar",
@@ -962,7 +962,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Myanmar",
       "latitude": 21.2408719,
       "longitude": 96.1806164,
-      "myUrl": "http://awoisoak.com/gallery/myanmar/"
+      "myUrl": "https://awoisoak.com/gallery/myanmar/"
     },
     {
       "id": "Singapore",
@@ -972,7 +972,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Singapore",
       "latitude": 1.3147268,
       "longitude": 103.7065913,
-      "myUrl": "http://awoisoak.com/gallery/singapore/"
+      "myUrl": "https://awoisoak.com/gallery/singapore/"
     },
     {
       "id": "Thailand",
@@ -982,7 +982,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Thailand",
       "latitude": 13.7245608,
       "longitude": 100.4926832,
-      "myUrl": "http://awoisoak.com/gallery/thailand/"
+      "myUrl": "https://awoisoak.com/gallery/thailand/"
     },
     {
       "id": "Ho Chi Minh",
@@ -992,7 +992,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Ho Chi Minh",
       "latitude": 10.7680332,
       "longitude": 106.4134938,
-      "myUrl": "http://awoisoak.com/?border_gallery=ho-chi-minh"
+      "myUrl": "https://awoisoak.com/?border_gallery=ho-chi-minh"
     },
     {
       "id": "North Vietnam",
@@ -1002,7 +1002,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "North Vietnam",
       "latitude": 21.022703,
       "longitude": 105.8194112,
-      "myUrl": "http://awoisoak.com/gallery/vietnam/"
+      "myUrl": "https://awoisoak.com/gallery/vietnam/"
     },
     {
       "id": "Ghorepani Poon Hill Trek",
@@ -1012,7 +1012,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Ghorepani Poon Hill Trek",
       "latitude": 28.40064,
       "longitude": 83.697474,
-      "myUrl": "http://awoisoak.com/?border_gallery=ghorepani-pool-hill-trek"
+      "myUrl": "https://awoisoak.com/?border_gallery=ghorepani-pool-hill-trek"
     },
     {
       "id": "Kathmandu",
@@ -1022,7 +1022,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Kathmandu",
       "latitude": 27.7089559,
       "longitude": 85.2910276 ,
-      "myUrl": "http://awoisoak.com/gallery/kathmandu/"
+      "myUrl": "https://awoisoak.com/gallery/kathmandu/"
     },
 
     {
@@ -1033,7 +1033,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Pokhara",
       "latitude": 28.2297045,
       "longitude": 83.8864069,
-      "myUrl": "http://awoisoak.com/gallery/pokhara/"
+      "myUrl": "https://awoisoak.com/gallery/pokhara/"
     },
     {
       "id": "Estonia",
@@ -1043,7 +1043,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Estonia",
       "latitude": 58.5999107,
       "longitude": 23.8631122,
-      "myUrl": "http://awoisoak.com/gallery/estonia/"
+      "myUrl": "https://awoisoak.com/gallery/estonia/"
     },
     {
       "id": "Helsinki",
@@ -1053,7 +1053,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Helsinki",
       "latitude": 60.1639301,
       "longitude": 24.8998444,
-      "myUrl": "http://awoisoak.com/gallery/finland/"
+      "myUrl": "https://awoisoak.com/gallery/finland/"
     },
     {
       "id": "Iceland",
@@ -1063,7 +1063,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Iceland",
       "latitude": 64.9143556,
       "longitude":-21.2612643,
-      "myUrl": "http://awoisoak.com/gallery/iceland/"
+      "myUrl": "https://awoisoak.com/gallery/iceland/"
     },
     {
       "id": "Ireland",
@@ -1073,7 +1073,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Ireland",
       "latitude": 53.3242377,
       "longitude": -6.3861282,
-      "myUrl": "http://awoisoak.com/gallery/ireland/"
+      "myUrl": "https://awoisoak.com/gallery/ireland/"
     },
     {
       "id": "Latvia",
@@ -1083,7 +1083,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Latvia",
       "latitude": 56.8751259,
       "longitude": 23.4821525,
-      "myUrl": "http://awoisoak.com/gallery/latvia/"
+      "myUrl": "https://awoisoak.com/gallery/latvia/"
     },
     {
       "id": "Lithuania",
@@ -1093,7 +1093,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Lithuania",
       "latitude": 55.1684329,
       "longitude": 22.7711894,
-      "myUrl": "http://awoisoak.com/gallery/lithuania/"
+      "myUrl": "https://awoisoak.com/gallery/lithuania/"
     },
     {
       "id": "Stockholm",
@@ -1103,7 +1103,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Stockholm",
       "latitude": 59.3260664,
       "longitude": 17.8471221,
-      "myUrl": "http://awoisoak.com/gallery/sweden/"
+      "myUrl": "https://awoisoak.com/gallery/sweden/"
     },
 
     {
@@ -1124,7 +1124,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "London",
 		      "latitude": 51.5285578,
 		      "longitude": -0.2420425,
-		      "myUrl": "http://awoisoak.com/gallery/england/"
+		      "myUrl": "https://awoisoak.com/gallery/england/"
 		    },
 		 	{
 		      "id": "Arbroath",
@@ -1134,7 +1134,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Arbroath",
 		      "latitude": 56.5633591,
 		      "longitude": -2.6047868,
-		      "myUrl": "http://awoisoak.com/gallery/arbroath/"
+		      "myUrl": "https://awoisoak.com/gallery/arbroath/"
 		    },
 		    {
 		      "id": "Dundee",
@@ -1144,7 +1144,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Dundee",
 		      "latitude": 56.4782395,
 		      "longitude": -3.0370439,
-		      "myUrl": "http://awoisoak.com/gallery/dundee/"
+		      "myUrl": "https://awoisoak.com/gallery/dundee/"
 		    },
 		    {
 		      "id": "Glasgow, Stirling & Falkirk",
@@ -1154,7 +1154,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Glasgow, Stirling & Falkirk",
 		      "latitude": 55.8554402,
 		      "longitude": -4.302333,
-		      "myUrl": "http://awoisoak.com/gallery/glasgow-stirling-falkirk/"
+		      "myUrl": "https://awoisoak.com/gallery/glasgow-stirling-falkirk/"
 		    },
 		    {
 		      "id": "Highlands",
@@ -1164,7 +1164,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Highlands",
 		      "latitude": 57.4679914,
 		      "longitude": -4.2569628,
-		      "myUrl": "http://awoisoak.com/gallery/highlands/"
+		      "myUrl": "https://awoisoak.com/gallery/highlands/"
 		    },
 		    {
 		      "id": "Isle Of Skye",
@@ -1174,7 +1174,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Isle Of Skye",
 		      "latitude": 57.3617192,
 		      "longitude": -6.7797696,
-		      "myUrl": "http://awoisoak.com/gallery/101821/"
+		      "myUrl": "https://awoisoak.com/gallery/101821/"
 		    },
 		    {
 		      "id": "St. Andrews",
@@ -1184,7 +1184,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "St. Andrews",
 		      "latitude": 56.3398,
 		      "longitude": -2.8253288,
-		      "myUrl": "http://awoisoak.com/gallery/st-andrews/"
+		      "myUrl": "https://awoisoak.com/gallery/st-andrews/"
 		    },
 		    {
 		      "id": "Tentsmuir",
@@ -1194,7 +1194,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Tentsmuir",
 		      "latitude": 56.4200212,
 		      "longitude": -2.8727287,
-		      "myUrl": "http://awoisoak.com/gallery/tentsmuir/"
+		      "myUrl": "https://awoisoak.com/gallery/tentsmuir/"
 		    }
 
       	]
@@ -1207,7 +1207,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Vienna",
       "latitude": 48.2206635,
       "longitude": 16.309849,
-      "myUrl": "http://awoisoak.com/gallery/austria/"
+      "myUrl": "https://awoisoak.com/gallery/austria/"
     },
     {
       "id": "Antwerp",
@@ -1217,7 +1217,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Antwerp",
       "latitude": 51.2603011,
       "longitude": 4.2301106,
-      "myUrl": "http://awoisoak.com/gallery/antwerp/"
+      "myUrl": "https://awoisoak.com/gallery/antwerp/"
     },
     {
       "id": "Bruges",
@@ -1227,7 +1227,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Bruges",
       "latitude": 51.2605829,
       "longitude": 3.0817207,
-      "myUrl": "http://awoisoak.com/gallery/101958/"
+      "myUrl": "https://awoisoak.com/gallery/101958/"
     },
     {
       "id": "Ghent",
@@ -1237,7 +1237,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Ghent",
       "latitude": 51.082552,
       "longitude": 3.5740607,
-      "myUrl": "http://awoisoak.com/gallery/101914/"
+      "myUrl": "https://awoisoak.com/gallery/101914/"
     },
     {
       "id": "Nice",
@@ -1247,7 +1247,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Nice",
       "latitude": 43.7030413,
       "longitude": 7.1827233,
-      "myUrl": "http://awoisoak.com/gallery/france/"
+      "myUrl": "https://awoisoak.com/gallery/france/"
     },
     {
       "id": "Berlin & Oranienburg",
@@ -1257,7 +1257,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Berlin & Oranienburg",
       "latitude": 52.5074588,
       "longitude": 13.2857212,
-      "myUrl": "http://awoisoak.com/gallery/berlin-oranienburg/"
+      "myUrl": "https://awoisoak.com/gallery/berlin-oranienburg/"
     },
     {
       "id": "Bremen",
@@ -1267,7 +1267,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Bremen",
       "latitude": 53.1201745,
       "longitude": 8.5958617,
-      "myUrl": "http://awoisoak.com/gallery/bremen/"
+      "myUrl": "https://awoisoak.com/gallery/bremen/"
     },
     {
       "id": "Hamburg",
@@ -1277,7 +1277,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Hamburg",
       "latitude": 53.5584898,
       "longitude": 9.7873974,
-      "myUrl": "http://awoisoak.com/gallery/101442/"
+      "myUrl": "https://awoisoak.com/gallery/101442/"
     },
     {
       "id": "Hannover",
@@ -1287,7 +1287,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Hannover",
       "latitude": 52.3796456,
       "longitude": 9.6912606,
-      "myUrl": "http://awoisoak.com/gallery/hannover/"
+      "myUrl": "https://awoisoak.com/gallery/hannover/"
     },
     {
       "id": "Munich & Ingolstadt",
@@ -1297,7 +1297,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Munich & Ingolstadt",
       "latitude": 48.1548894,
       "longitude": 11.4716248,
-      "myUrl": "http://awoisoak.com/gallery/munich-ingolstadt/"
+      "myUrl": "https://awoisoak.com/gallery/munich-ingolstadt/"
     },
     {
       "id": "Luxembourg",
@@ -1307,7 +1307,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Luxembourg",
       "latitude": 49.8149602,
       "longitude": 5.8524603,
-      "myUrl": "http://awoisoak.com/gallery/luxembourg/"
+      "myUrl": "https://awoisoak.com/gallery/luxembourg/"
     },
     {
       "id": "Monaco",
@@ -1317,7 +1317,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Monaco",
       "latitude": 43.7383226,
       "longitude": 7.4156819,
-      "myUrl": "http://awoisoak.com/gallery/monaco/"
+      "myUrl": "https://awoisoak.com/gallery/monaco/"
     },
 
     {
@@ -1338,7 +1338,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Lovech",
 		      "latitude": 43.1444687,
 		      "longitude": 24.6759395,
-		      "myUrl": "http://awoisoak.com/gallery/lovech/"
+		      "myUrl": "https://awoisoak.com/gallery/lovech/"
 		    },
 		    {
 		      "id": "Rila",
@@ -1348,7 +1348,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Rila",
 		      "latitude": 42.1853415,
 		      "longitude": 23.4167234,
-		      "myUrl": "http://awoisoak.com/gallery/rila/"
+		      "myUrl": "https://awoisoak.com/gallery/rila/"
 		    },
 		    {
 		      "id": "Sofia",
@@ -1358,7 +1358,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Sofia",
 		      "latitude": 42.6954107,
 		      "longitude":23.2537356 ,
-		      "myUrl": "http://awoisoak.com/gallery/sofia/"
+		      "myUrl": "https://awoisoak.com/gallery/sofia/"
 		    },
 		    {
 		      "id": "Veliko Tarnovo",
@@ -1368,7 +1368,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Veliko Tarnovo",
 		      "latitude": 43.0840674,
 		      "longitude": 25.5980173,
-		      "myUrl": "http://awoisoak.com/gallery/veliko-tarnovo/"
+		      "myUrl": "https://awoisoak.com/gallery/veliko-tarnovo/"
 		    },
 		    {
 		      "id": "Vitosha",
@@ -1378,7 +1378,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Vitosha",
 		      "latitude": 42.55,
 		      "longitude": 23.247806,
-		      "myUrl": "http://awoisoak.com/gallery/vitosha/"
+		      "myUrl": "https://awoisoak.com/gallery/vitosha/"
 		    },
 
       	]
@@ -1394,7 +1394,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Budapest",
       "latitude": 47.4811277,
       "longitude": 18.9898782,
-      "myUrl": "http://awoisoak.com/gallery/hungary/"
+      "myUrl": "https://awoisoak.com/gallery/hungary/"
     },
     {
       "id": "Romania",
@@ -1404,7 +1404,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Romania",
       "latitude": 45.9222429,
       "longitude": 22.7614768,
-      "myUrl": "http://awoisoak.com/gallery/romania/"
+      "myUrl": "https://awoisoak.com/gallery/romania/"
     },
     {
       "id": "Transnistria",
@@ -1414,7 +1414,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Transnistria",
       "latitude": 47.3610824,
       "longitude": 28.678912,
-      "myUrl": "http://awoisoak.com/gallery/transnistria/"
+      "myUrl": "https://awoisoak.com/gallery/transnistria/"
     },
     {
       "id": "Chernobyl",
@@ -1424,7 +1424,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Chernobyl",
       "latitude": 51.2752971,
       "longitude": 30.204333,
-      "myUrl": "http://awoisoak.com/gallery/chernobyl/"
+      "myUrl": "https://awoisoak.com/gallery/chernobyl/"
     },
     {
       "id": "Kiev",
@@ -1434,7 +1434,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Kiev",
       "latitude": 50.401951,
       "longitude": 30.3922661,
-      "myUrl": "http://awoisoak.com/gallery/kiev/"
+      "myUrl": "https://awoisoak.com/gallery/kiev/"
     },
 	{
       "id": "Petergof",
@@ -1444,7 +1444,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Petergof",
       "latitude": 59.8742713,
       "longitude": 29.8587085,
-      "myUrl": "http://awoisoak.com/gallery/petergof/"
+      "myUrl": "https://awoisoak.com/gallery/petergof/"
     },
     {
       "id": "Saint Petersburg",
@@ -1454,7 +1454,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Saint Petersburg",
       "latitude": 59.9171469,
       "longitude": 30.0442034,
-      "myUrl": "http://awoisoak.com/gallery/saint-petersburg/"
+      "myUrl": "https://awoisoak.com/gallery/saint-petersburg/"
     },
 
     {
@@ -1475,7 +1475,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "9 мая",
 		      "latitude": 55.7488318,
 		      "longitude": 37.6226647,
-		      "myUrl": "http://awoisoak.com/?border_gallery=9-%D0%BC%D0%B0%D1%8F"
+		      "myUrl": "https://awoisoak.com/?border_gallery=9-%D0%BC%D0%B0%D1%8F"
 		    },
 		    {
 		      "id": "Moscow",
@@ -1485,7 +1485,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Moscow",
 		      "latitude": 55.7494718,
 		      "longitude": 37.3516385,
-		      "myUrl": "http://awoisoak.com/gallery/moscow-city/"
+		      "myUrl": "https://awoisoak.com/gallery/moscow-city/"
 		    },
 		    {
 		      "id": "Park Pobedy",
@@ -1495,7 +1495,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Park Pobedy",
 		      "latitude": 55.7358848,
 		      "longitude": 37.5152984,
-		      "myUrl": "http://awoisoak.com/gallery/park-pobedy/"
+		      "myUrl": "https://awoisoak.com/gallery/park-pobedy/"
 		    },
 		    {
 		      "id": "Novodevichy",
@@ -1505,7 +1505,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Novodevichy",
 		      "latitude": 55.7283501,
 		      "longitude": 37.5569208,
-		      "myUrl": "http://awoisoak.com/gallery/novodevichy/"
+		      "myUrl": "https://awoisoak.com/gallery/novodevichy/"
 		    },
 		    {
 		      "id": "Sergiyev Posad",
@@ -1515,7 +1515,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Sergiyev Posad",
 		      "latitude": 56.30581,
 		      "longitude": 38.088667,
-		      "myUrl": "http://awoisoak.com/gallery/sergiyev-posad/"
+		      "myUrl": "https://awoisoak.com/gallery/sergiyev-posad/"
 		    },
 
 
@@ -1529,7 +1529,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Bosnia and Herzegovina",
       "latitude": 43.9110327,
       "longitude": 16.548428,
-      "myUrl": "http://awoisoak.com/gallery/bosnia-and-herzegovina/"
+      "myUrl": "https://awoisoak.com/gallery/bosnia-and-herzegovina/"
     },
     {
       "id": "Dubrovnik",
@@ -1539,7 +1539,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Dubrovnik",
       "latitude": 42.6457243,
       "longitude": 18.0765056,
-      "myUrl": "http://awoisoak.com/gallery/dubrovnik/"
+      "myUrl": "https://awoisoak.com/gallery/dubrovnik/"
     },
     {
       "id": "Plitvice Lakes",
@@ -1549,7 +1549,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Plitvice Lakes",
       "latitude": 44.8653966,
       "longitude": 15.5798179,
-      "myUrl": "http://awoisoak.com/gallery/plitivice-lakes/"
+      "myUrl": "https://awoisoak.com/gallery/plitivice-lakes/"
     },
     {
       "id": "Split",
@@ -1559,7 +1559,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Split",
       "latitude": 43.5148461,
       "longitude": 16.4139784,
-      "myUrl": "http://awoisoak.com/gallery/split/"
+      "myUrl": "https://awoisoak.com/gallery/split/"
     },
     {
       "id": "Zadar",
@@ -1569,7 +1569,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Zadar",
       "latitude": 44.1349503,
       "longitude": 15.2138089,
-      "myUrl": "http://awoisoak.com/gallery/zadar/"
+      "myUrl": "https://awoisoak.com/gallery/zadar/"
     },
     {
       "id": "Zagreb",
@@ -1579,7 +1579,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Zagreb",
       "latitude": 45.8401744,
       "longitude": 15.8941205,
-      "myUrl": "http://awoisoak.com/gallery/zagreb/"
+      "myUrl": "https://awoisoak.com/gallery/zagreb/"
     },
     {
       "id": "Burano & Murano",
@@ -1589,7 +1589,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Burano & Murano",
       "latitude": 45.4853442,
       "longitude": 12.4150692,
-      "myUrl": "http://awoisoak.com/gallery/burano-murano/"
+      "myUrl": "https://awoisoak.com/gallery/burano-murano/"
     },
     {
       "id": "Milan",
@@ -1599,7 +1599,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Milan",
       "latitude": 45.4627123,
       "longitude": 9.1075212,
-      "myUrl": "http://awoisoak.com/gallery/milan/"
+      "myUrl": "https://awoisoak.com/gallery/milan/"
     },
     {
       "id": "Trieste",
@@ -1609,7 +1609,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Trieste",
       "latitude": 45.6523148,
       "longitude": 13.7485568,
-      "myUrl": "http://awoisoak.com/gallery/trieste/"
+      "myUrl": "https://awoisoak.com/gallery/trieste/"
     },
     {
       "id": "Venice",
@@ -1619,7 +1619,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Venice",
       "latitude": 45.4055776,
       "longitude": 12.2413175,
-      "myUrl": "http://awoisoak.com/gallery/venice/"
+      "myUrl": "https://awoisoak.com/gallery/venice/"
     },
     {
       "id": "Montenegro, Kosovo , Macedonia & Albania",
@@ -1629,7 +1629,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Montenegro, Kosovo , Macedonia & Albania",
       "latitude": 42.2136071,
       "longitude": 20.3029722,
-      "myUrl": "http://awoisoak.com/gallery/102245/"
+      "myUrl": "https://awoisoak.com/gallery/102245/"
     },
     {
       "id": "Porto",
@@ -1639,7 +1639,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Porto",
       "latitude": 41.1628634,
       "longitude": -8.6569582,
-      "myUrl": "http://awoisoak.com/gallery/portugal/"
+      "myUrl": "https://awoisoak.com/gallery/portugal/"
     },
     {
       "id": "Belgrade",
@@ -1649,7 +1649,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Belgrade",
       "latitude": 44.1887195,
       "longitude": 18.6743723,
-      "myUrl": "http://awoisoak.com/gallery/serbia/"
+      "myUrl": "https://awoisoak.com/gallery/serbia/"
     },
     {
       "id": "Spain",
@@ -1669,7 +1669,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Barcelona",
 		      "latitude": 41.3947687,
 		      "longitude": 2.0785567,
-		      "myUrl": "http://awoisoak.com/gallery/barcelona/"
+		      "myUrl": "https://awoisoak.com/gallery/barcelona/"
 		    },
 		    {
 		      "id": "Granada",
@@ -1679,7 +1679,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Granada",
 		      "latitude": 37.180945,
 		      "longitude": -3.6088242,
-		      "myUrl": "http://awoisoak.com/gallery/granada/"
+		      "myUrl": "https://awoisoak.com/gallery/granada/"
 		    }, 
 		    {
 		      "id": "Madrid",
@@ -1689,7 +1689,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Madrid",
 		      "latitude": 40.4378693,
 		      "longitude": -3.8199623,
-		      "myUrl": "http://awoisoak.com/gallery/madrid/"
+		      "myUrl": "https://awoisoak.com/gallery/madrid/"
 		    },
 
 		]
@@ -1703,7 +1703,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Tenerife",
       "latitude": 28.2931058,
       "longitude": -16.8035233,
-      "myUrl": "http://awoisoak.com/gallery/tenerife/"
+      "myUrl": "https://awoisoak.com/gallery/tenerife/"
     },
     {
       "id": "South Island",
@@ -1713,7 +1713,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "South Island",
       "latitude": -43.4933447,
       "longitude": 171.2019378,
-      "myUrl": "http://awoisoak.com/gallery/south-island/"
+      "myUrl": "https://awoisoak.com/gallery/south-island/"
     },
     {
       "id": "North Island",
@@ -1723,7 +1723,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "North Island",
       "latitude": -38.6898215,
       "longitude": 176.009907,
-      "myUrl": "http://awoisoak.com/gallery/north-island/"
+      "myUrl": "https://awoisoak.com/gallery/north-island/"
     },
     {
       "id": "Cairns & Cape Tribulation",
@@ -1733,7 +1733,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Cairns & Cape Tribulation",
       "latitude": -16.4129301,
       "longitude": 142.9979353,
-      "myUrl": "http://awoisoak.com/gallery/cairns-cape-tribulation/"
+      "myUrl": "https://awoisoak.com/gallery/cairns-cape-tribulation/"
     },
     {
       "id": "Brisbane",
@@ -1753,7 +1753,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Brisbane",
 		      "latitude": -27.3818598,
 		      "longitude": 152.7123351,
-		      "myUrl": "http://awoisoak.com/gallery/brisbane/"
+		      "myUrl": "https://awoisoak.com/gallery/brisbane/"
 		    },
 		    {
 		      "id": "Fraser Island",
@@ -1763,7 +1763,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Fraser Island",
 		      "latitude": -25.2469444,
 		      "longitude": 152.8705584,
-		      "myUrl": "http://awoisoak.com/gallery/fraser-island/"
+		      "myUrl": "https://awoisoak.com/gallery/fraser-island/"
 		    },
 		    {
 		      "id": "Mooloolaba & Dreamworld",
@@ -1773,7 +1773,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Mooloolaba & Dreamworld",
 		      "latitude": -26.6849603,
 		      "longitude": 153.106889,
-		      "myUrl": "http://awoisoak.com/gallery/mooloolaba-dreamworld/"
+		      "myUrl": "https://awoisoak.com/gallery/mooloolaba-dreamworld/"
 		    },
 		    {
 		      "id": "Noosa & Stradbroke Island",
@@ -1783,7 +1783,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Noosa & Stradbroke Island",
 		      "latitude": -26.3181943,
 		      "longitude": 152.8009457,
-		      "myUrl": "http://awoisoak.com/gallery/stradbroke-island/"
+		      "myUrl": "https://awoisoak.com/gallery/stradbroke-island/"
 		    },
 		    {
 		      "id": "Byron Bay & Nimbin",
@@ -1793,7 +1793,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
 		      "title": "Byron Bay & Nimbin",
 		      "latitude": -28.6469767,
 		      "longitude": 153.5852677,
-		      "myUrl": "http://awoisoak.com/gallery/byron-bay/"
+		      "myUrl": "https://awoisoak.com/gallery/byron-bay/"
 		    }
 		]
 	},
@@ -1806,7 +1806,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Sidney & Blue Mountains",
       "latitude": -33.8479715,
       "longitude":150.651096 ,
-      "myUrl": "http://awoisoak.com/gallery/sidney-blue-mountains/"
+      "myUrl": "https://awoisoak.com/gallery/sidney-blue-mountains/"
     },
     {
       "id": "Kakadu National Park",
@@ -1816,7 +1816,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Kakadu National Park",
       "latitude": -13.0922931,
       "longitude": 132.3915718,
-      "myUrl": "http://awoisoak.com/gallery/kakadu-national-park/"
+      "myUrl": "https://awoisoak.com/gallery/kakadu-national-park/"
     },
     {
       "id": "King Canyon & Devil Marbles",
@@ -1826,7 +1826,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "King Canyon & Devil Marbles",
       "latitude": -24.2214887,
       "longitude": 131.579162,
-      "myUrl": "http://awoisoak.com/gallery/kings-canyon-devil-marbles/"
+      "myUrl": "https://awoisoak.com/gallery/kings-canyon-devil-marbles/"
     },
     {
       "id": "Uluru-Kata Tjuta",
@@ -1836,7 +1836,7 @@ var $CHART$ = AmCharts.makeChart( "$CHART$", {
       "title": "Uluru-Kata Tjuta",
       "latitude": -25.3124125,
       "longitude": 130.7414871,
-      "myUrl": "http://awoisoak.com/gallery/uluru-kata-tjuta/"
+      "myUrl": "https://awoisoak.com/gallery/uluru-kata-tjuta/"
     },
    ]
   },
